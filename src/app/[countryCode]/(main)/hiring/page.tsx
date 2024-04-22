@@ -120,13 +120,8 @@ export default async function Hiring() {
               <p className="w-[300px] uppercase font-light text-xl text-center border-solid border-2 border-white"> Please call</p>
               </div>
               <a 
-<<<<<<< HEAD
                 title="social-link"
                 href="tel:(732)4424567" 
-=======
-                title="call-link"
-                href="tel:+1(732)-314-5400" 
->>>>>>> e9c30e012f82f6504c991ee646b6a21fda769426
                 target="_blank"
                 rel="noopener noreferrer"
                 className="uppercase text-xl text-center underline underline-offset-4"
