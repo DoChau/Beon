@@ -1,0 +1,110 @@
+
+  .rainbow-text {
+    //left: 0%;
+
+    //background-image: url("https://247bucket.s3.ap-southeast-1.amazonaws.com/Paschlogo.png");
+    /* Create a conic gradient. */
+    /* Double percentages to avoid blur (#000 10%, #fff 10%, #fff 20%, ...). */
+    //background: #CA4246;
+    //background-color: #CA4246;
+    background-image: url("https://247bucket.s3.ap-southeast-1.amazonaws.com/z5327441101933_0351893c88c3a42ccbd0df9394be8e1a.jpg");
+
+    /* Set thee background size and repeat properties. */
+    background-size: 105%;
+    background-repeat: repeat;
+    clip-path: url("#pasch");
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    //-webkit-background-clip: text;
+    //-webkit-text-fill-color: black; 
+    
+    /* Animate the text when loading the element. */
+    /* This animates it on page load and when hovering out. */
+    //animation: rainbow-text-animation-rev 1s ease forwards;
+    cursor: pointer;
+    animation: rainbow-text-animation 10s ease infinite;
+  }
+  
+  .rainbow-text:hover {
+    background-image: url("https://webnailsbucket.s3.amazonaws.com/pasch/bubble+bg.png");
+    background-size: 200%;
+    background-repeat: repeat;
+    clip-path: url("#pasch");
+    animation: rainbow-text-animation-hover 10s ease infinite;
+
+  }
+  /* Move the background and make it larger. */
+  /* Animation shown when hovering over the text. */
+  @keyframes rainbow-text-animation {
+    0% {
+      background-size: 100%;
+      background-position: 5% 15%;
+    }
+    50% {
+      background-size: 150%;
+      background-position: 20% 30%;
+    }
+    100% {
+      background-size: 100%;
+      background-position: 5% 15%;
+    }
+  }
+  @keyframes rainbow-text-animation-hover {
+    0% {
+      background-size: 200%;
+      background-position: 33% 60%;
+    }
+    50% {
+      background-size: 200%;
+      background-position: 65% 60%;
+    }
+    100% {
+      background-size: 200%;
+      background-position: 33% 60%;
+    }
+  }
+  /* Move the background and make it smaller. */
+  /* Animation shown when entering the page and after the hover animation. */
+  @keyframes rainbow-text-animation-rev {
+    0% {
+      background-size: 150%;
+      background-position: 15% 45%;
+    }
+    40% {
+      background-size: 120%;
+      background-position: 10% 30%;
+    }
+    100% {
+      background-size: 100%;
+      background-position: 5% 15%;
+    }
+  }
+  
+  
+  .waveypromotion{
+    animation: Xmove 20s linear infinite;
+  }
+  @keyframes Xmove {
+    0% {
+      transform: translateX(-54.75%);
+    }
+   
+    100% {
+      transform: translateX(50%);
+    }
+  }
+  
+  .wavey{
+    animation: XYmove 10s ease infinite;
+  }
+  @keyframes XYmove {
+    0% {
+      transform: translateX(-10%);
+    }
+    50% {
+      transform: translateX(-5%);
+    }
+    100% {
+      transform: translateX(-10%);
+    }
+  }
