@@ -215,7 +215,7 @@ export default async function Home() {
 
       <div className="background flex w-full h-screen absolute top-0 m-0 overflow-hidden -z-50">
          <video className="wmp4-bg w-full h-screen object-cover absolute top-0 z-0"
-          loop muted autoPlay lazy
+          loop muted autoPlay
           src="https://webnailsbucket.s3.amazonaws.com/beon/Beon+hoa+bg+2-vmake.mp4">
         </video>
 
