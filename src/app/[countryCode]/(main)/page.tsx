@@ -76,10 +76,10 @@ export default async function Home() {
     <>
       <div className="grid max-w-6xl w-full h-screen -mb-12 sm:-mb-16 p-5 mx-auto items-center overflow-hidden font-futura z-0">
 
-        <div className="logocontent grid items-center mx-auto justify-center justify-items-center z-10">
+        <div className="logocontent grid items-center mx-auto justify-items-center z-10">
 
           <div className="logo">
-            <Image src="https://webnailsbucket.s3.amazonaws.com/beon/logo+beon-01.svg" alt="Icon" width={152} height={209}/>
+            <Image src="https://webnailsbucket.s3.amazonaws.com/beon/logo+beon-01.svg" alt="logo" width={152} height={209}/>
           </div>
           <a 
             title="booking-link"
@@ -94,8 +94,6 @@ export default async function Home() {
           
         </div>
 
-               
-        
         <div className="widget relative bottom-10 md:inline-flex w-full items-center justify-between space-y-4 xsmall:space-y-0 z-30">
           <div className="left_widget w-full inline-flex items-center justify-center md:justify-start md:w-[50%] xsmall:space-x-6">
             <div className="md:flex text-theme-4">
@@ -217,7 +215,7 @@ export default async function Home() {
 
       <div className="background flex w-full h-screen absolute top-0 m-0 overflow-hidden -z-50">
          <video className="wmp4-bg w-full h-screen object-cover absolute top-0 z-0"
-          loop muted autoPlay
+          loop muted autoPlay lazy
           src="https://webnailsbucket.s3.amazonaws.com/beon/Beon+hoa+bg+2-vmake.mp4">
         </video>
 
