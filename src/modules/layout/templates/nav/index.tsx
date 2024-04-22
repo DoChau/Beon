@@ -14,15 +14,15 @@ export default function Nav() {
     case "/us":
       return (
         <>
-          <div className="sticky top-0 mx-auto w-full bg-theme-14 bg-opacity-75 h-12 md:h-16 place-content-start md:place-content-center z-50 group duration-200 text-theme-3">
+          <div className="sticky top-0 mx-auto w-full bg-theme-14 bg-opacity-75 h-12 sm:h-16 place-content-start sm:place-content-center z-50 group duration-200 text-theme-3">
             <header className="relative w-full flex flex-wrap">
-              <nav className="m-auto max-w-6xl w-full md:px-5 justify-self-center">
+              <nav className="m-auto max-w-6xl w-full sm:px-5 justify-self-center">
                 <div className="mx-auto flex flex-wrap items-center justify-between">
                   <div
-                    className="items-center justify-between hidden px-2 w-full sm:bg-transparent bg-theme-14 md:flex md:w-auto order-2 md:order-1"
+                    className="items-center justify-between hidden px-2 w-full h-screen sm:h-fit bg-theme-14 sm:bg-transparent sm:flex sm:w-auto order-2 sm:order-1"
                     id="search-navbar"
                   >
-                    <div className="relative my-4 md:hidden">
+                    <div className="relative my-4 sm:hidden">
                       <input
                         type="text"
                         id="search-navbar"
@@ -30,7 +30,7 @@ export default function Nav() {
                         placeholder="Search..."
                       />
                     </div>
-                    <div className="social_widget w-[80%] pl-6 md:hidden inline-flex items-center xsmall:justify-start space-x-2">
+                    <div className="social_widget w-[80%] pl-6 sm:hidden inline-flex items-center sm:justify-start space-x-2">
                       <a
                         title="social-link"
                         href="https://www.facebook.com/Beonnail/"
@@ -92,11 +92,11 @@ export default function Nav() {
                       ></a>
                     </div>
 
-                    <ul className="flex flex-col p-4 md:p-0 rounded-lg bg-transparent font-futura font-normal uppercase text-base md:space-x-6 rtl:space-x-reverse md:flex-row">
+                    <ul className="flex flex-col p-4 sm:p-0 rounded-lg bg-transparent font-futura font-normal uppercase text-base sm:space-x-6 rtl:space-x-reverse sm:flex-row">
                       <li>
                         <a
                           href="/"
-                          className="block py-2 px-3 md:hover:text-theme-7 hover:scale-110  md:p-0 "
+                          className="block py-2 px-3 sm:hover:text-theme-7 hover:scale-110  sm:p-0 "
                           aria-current="page"
                         >
                           Home
@@ -105,7 +105,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/about"
-                          className="block py-2 px-3  md:hover:text-theme-7  hover:scale-110 md:p-0 "
+                          className="block py-2 px-3  sm:hover:text-theme-7  hover:scale-110 sm:p-0 "
                         >
                           About
                         </a>
@@ -113,7 +113,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/categories/manicure"
-                          className="block py-2 px-3   md:hover:text-theme-7  hover:scale-110 md:p-0 "
+                          className="block py-2 px-3   sm:hover:text-theme-7  hover:scale-110 sm:p-0 "
                         >
                           Services
                         </a>
@@ -121,7 +121,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/policy"
-                          className="block py-2 px-3   md:hover:text-theme-7  hover:scale-110 md:p-0 "
+                          className="block py-2 px-3   sm:hover:text-theme-7  hover:scale-110 sm:p-0 "
                         >
                           Policy
                         </a>
@@ -129,7 +129,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/gallery"
-                          className="block py-2 px-3   md:hover:text-theme-7  hover:scale-110 md:p-0 "
+                          className="block py-2 px-3   sm:hover:text-theme-7  hover:scale-110 sm:p-0 "
                         >
                           Gallery
                         </a>
@@ -137,7 +137,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/news"
-                          className="block py-2 px-3   md:hover:text-theme-7  hover:scale-110 md:p-0 "
+                          className="block py-2 px-3   sm:hover:text-theme-7  hover:scale-110 sm:p-0 "
                         >
                           News
                         </a>
@@ -145,7 +145,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/hiring"
-                          className="block py-2 px-3   md:hover:text-theme-7  hover:scale-110 md:p-0 "
+                          className="block py-2 px-3   sm:hover:text-theme-7  hover:scale-110 sm:p-0 "
                         >
                           Hiring
                         </a>
@@ -153,10 +153,10 @@ export default function Nav() {
                     </ul>
                   </div>
 
-                  <div className="flex-row inline-flex w-screen md:w-60 md:order-2 order-1 place-items-center justify-around items-end">
+                  <div className="flex-row inline-flex w-screen sm:w-60 sm:order-2 order-1 place-items-center justify-around items-end">
                     <button
                       type="button"
-                      className="md:hidden text-theme-3 focus:outline-none focus:ring-theme-1 rounded-lg text-sm p-2.5 me-1"
+                      className="sm:hidden text-theme-3 focus:outline-none focus:ring-theme-1 rounded-lg text-sm p-2.5 me-1"
                       data-collapse-toggle="search-navbar"
                       aria-controls="search-navbar"
                       aria-expanded="false"
@@ -180,7 +180,7 @@ export default function Nav() {
                     </button>
 
                     <button
-                      className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-theme-3 rounded-lg md:hidden focus:outline-none focus:ring-theme-1"
+                      className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-theme-3 rounded-lg sm:hidden focus:outline-none focus:ring-theme-1"
                       data-collapse-toggle="search-navbar"
                       type="button"
                       aria-controls="navbar-search"
@@ -204,7 +204,7 @@ export default function Nav() {
                       </svg>
                     </button>
 
-                    <div className="relative hidden md:block w-40 mr-4">
+                    <div className="relative hidden sm:block w-40 mr-4">
                       <div className="absolute inset-y-0 end-2 flex items-center ps-3 pointer-events-none">
                         <svg
                           className="w-4 h-4 text-theme-3"
@@ -274,10 +274,10 @@ export default function Nav() {
     default:
       return (
         <>
-          <div className="sticky top-0 w-full h-44 mx-auto bg-theme-3 place-content-start md:place-content-center z-50 group duration-200">
+          <div className="sticky top-0 w-full h-44 mx-auto bg-theme-3 place-content-start sm:place-content-center z-50 group duration-200">
             <header className="w-full relative flex flex-wrap">
               <nav className="w-full mx-auto max-w-6xl grid">
-                <div className="Booking hidden  top-[10px] right-[-30px] sm:right-[0px] xl:top-[10px] xl:right-[10%] scale-50 opacity-80 xl:scale-75 w-52 h-52 z-50">
+                <div className="Booking hidden top-[10px] right-[-30px] sm:right-[0px] xl:top-[10px] xl:right-[10%] scale-50 opacity-80 xl:scale-75 w-52 h-52 z-50">
                   <div className="Booking__bg absolute z-0">
                     <Image
                       src="https://247bucket.s3.ap-southeast-1.amazonaws.com/Asset+1.svg"
@@ -309,10 +309,10 @@ export default function Nav() {
                 </div>
 
                 <div
-                  className="w-full items-center justify-center hidden md:flex sm:bg-transparent bg-theme-14 bg-opacity-75 order-2 mx-auto"
+                  className="w-full h-screen hidden absolute top-10 items-center justify-center bg-theme-14 sm:flex sm:static sm:h-6 sm:bg-transparent order-2 mx-auto"
                   id="search-navbar"
                 >
-                  <div className="relative my-4 md:hidden">
+                  <div className="relative my-4 sm:hidden">
                     <input
                       type="text"
                       id="search-navbar"
@@ -322,7 +322,7 @@ export default function Nav() {
                   </div>
 
                   
-                  <div className="social_widget w-[80%] pl-6 md:hidden inline-flex items-center xsmall:justify-start space-x-2">
+                  <div className="social_widget w-[80%] pl-6 sm:hidden inline-flex items-center xsmall:justify-start space-x-2">
                     <a
                       title="social-link"
                       href="https://www.facebook.com/Beonnail/"
@@ -384,11 +384,11 @@ export default function Nav() {
                     ></a>
                   </div>
 
-                  <ul className="flex flex-col p-4 md:p-0 rounded-lg bg-transparent font-futura font-normal uppercase text-base md:space-x-6 rtl:space-x-reverse md:flex-row">
+                  <ul className="flex flex-col p-4 sm:p-0 rounded-lg bg-transparent font-futura font-normal uppercase text-base sm:space-x-6 rtl:space-x-reverse sm:flex-row">
                     <li>
                       <a
                         href="/"
-                        className="block py-2 px-3 text-theme-3 md:text-theme-4 hover:text-theme-7 hover:scale-110 md:p-0 "
+                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:scale-110 sm:p-0 "
                         aria-current="page"
                       >
                         Home
@@ -397,7 +397,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/about"
-                        className="block py-2 px-3 text-theme-3 md:text-theme-4 hover:text-theme-7 hover:scale-110 md:p-0 "
+                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:scale-110 sm:p-0 "
                       >
                         About
                       </a>
@@ -405,7 +405,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/categories/manicure"
-                        className="block py-2 px-3 text-theme-3 md:text-theme-4 hover:text-theme-7 hover:scale-110 md:p-0 "
+                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:scale-110 sm:p-0 "
                       >
                         Services
                       </a>
@@ -413,7 +413,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/policy"
-                        className="block py-2 px-3 text-theme-3 md:text-theme-4 hover:text-theme-7 hover:scale-110 md:p-0 "
+                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:scale-110 sm:p-0 "
                       >
                         Policy
                       </a>
@@ -421,7 +421,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/gallery"
-                        className="block py-2 px-3 text-theme-3 md:text-theme-4 hover:text-theme-7 hover:scale-110 md:p-0 "
+                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:scale-110 sm:p-0 "
                       >
                         Gallery
                       </a>
@@ -429,7 +429,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/news"
-                        className="block py-2 px-3 text-theme-3 md:text-theme-4 hover:text-theme-7 hover:scale-110 md:p-0 "
+                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:scale-110 sm:p-0 "
                       >
                         News
                       </a>
@@ -437,7 +437,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/hiring"
-                        className="block py-2 px-3 text-theme-3 md:text-theme-4 hover:text-theme-7 hover:scale-110 md:p-0 "
+                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:scale-110 sm:p-0 "
                       >
                         Hiring
                       </a>
@@ -445,7 +445,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/booking"
-                        className="block py-2 px-3 text-theme-3 md:text-theme-4 hover:text-theme-7 hover:scale-110 md:p-0 "
+                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:scale-110 sm:p-0 "
                       >
                         BOOK AN APPOINTMENT
                       </a>
@@ -539,7 +539,7 @@ export default function Nav() {
                   <div className="Search-bar w-full sm:w-60 inline-flex justify-around sm:justify-end order-1 sm:order-3">
                     <button
                       type="button"
-                      className="md:hidden text-theme-4 focus:outline-none focus:ring-theme-1 rounded-lg text-sm p-2.5 me-1"
+                      className="sm:hidden text-theme-4 focus:outline-none focus:ring-theme-1 rounded-lg text-sm p-2.5 me-1"
                       data-collapse-toggle="search-navbar"
                       aria-controls="search-navbar"
                       aria-expanded="false"
@@ -563,7 +563,7 @@ export default function Nav() {
                     </button>
 
                     <button
-                      className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-theme-4 rounded-lg md:hidden focus:outline-none focus:ring-theme-1"
+                      className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-theme-4 rounded-lg sm:hidden focus:outline-none focus:ring-theme-1"
                       data-collapse-toggle="search-navbar"
                       type="button"
                       aria-controls="navbar-search"
@@ -587,7 +587,7 @@ export default function Nav() {
                       </svg>
                     </button>
 
-                    <div className="relative hidden md:block w-40 mr-4">
+                    <div className="relative hidden sm:block w-40 mr-4">
                       <div className="absolute inset-y-0 end-2 flex items-center ps-3">
                         <svg
                           className="w-4 h-4 text-theme-4"
