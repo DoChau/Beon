@@ -25,11 +25,11 @@ export default async function News() {
         <div className="w-full max-w-6xl min-h-screen mx-auto grid place-content-start justify-center overflow-hidden md:gap-6">
             <h1 className="Services-title font-normal text-xl md:text-3xl uppercase drop-shadow-xl text-center">Booking</h1>
             <iframe 
-              className="rounded-lg mb-4"
+              className="mb-4 bg-[url('https://webnailsbucket.s3.amazonaws.com/beon/bouncing-circles.svg')] bg-center bg-[length:50px_50px] bg-no-repeat"
               title="booking"
               src="https://webnailsbucket.s3.amazonaws.com/beon/booking.html" 
-              width="700px"
-              height="800px"
+              width="600px"
+              height="600px"
               style={{ border: 0 }}
               allowFullScreen={false}
               aria-hidden="false"
