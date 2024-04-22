@@ -94,26 +94,7 @@ export default async function Home() {
           
         </div>
 
-        <div className="container relative inline-flex overflow-hidden mx-auto w-[1200px] h-[100px] md:w-fit bottom-0 scale-[3] xsmall:scale-[2] md:scale-[1] z-0">
-          <Image className="waveypromotion" src="https://247bucket.s3.ap-southeast-1.amazonaws.com/promotionText.svg"
-            alt="Icon" 
-            width={1200} 
-            height={100} 
-            style={{
-              width: '100%',
-              height: 'auto',
-          }}/>
-          <Image className="waveypromotion" src="https://247bucket.s3.ap-southeast-1.amazonaws.com/promotionText.svg"
-            alt="Icon" 
-            width={1200} 
-            height={100} 
-            style={{
-              width: '100%',
-              height: 'auto',
-          }}/>
-          
-        </div>
-        
+               
         
         <div className="widget relative bottom-10 md:inline-flex w-full items-center justify-between space-y-4 xsmall:space-y-0 z-30">
           <div className="left_widget w-full inline-flex items-center justify-center md:justify-start md:w-[50%] xsmall:space-x-6">

@@ -52,8 +52,8 @@ export default async function Hiring() {
                 <div className="w-full xsmall:inline-flex items-start justify-center xsmall:space-x-10" id="manager" role="tabpanel" aria-labelledby="manager-tab">
                   <Image className="xsmall:w-[35%] mx-auto mb-4 shadow-xl" src="https://webnailsbucket.s3.amazonaws.com/pasch/manager-banner.png" 
                     alt="banner" 
-                    width={365} 
-                    height={365} 
+                    width={365}
+                    height={365}
                     sizes="100%"
                     />
                   <div className="xsmall:w-[60%]">
