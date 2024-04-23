@@ -44,7 +44,7 @@ export default async function Footer() {
             <a  
               className="inline-flex space-x-4 items-center"
               title="address-divnk"
-              href="https://goo.gl/maps/favaaTdqUcUKs32v6" 
+              href="https://maps.app.goo.gl/vnL3WzMfhNfJF6df9" 
               target="_blank"
               rel="noopener noreferrer"
               >
