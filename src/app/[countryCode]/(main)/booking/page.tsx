@@ -1,6 +1,7 @@
 import { Metadata } from "next"
 import Image from "next/image"
-
+import Script
+ from "next/script"
 export const metadata: Metadata = {
   title: "Beon Nails - 1933 State Route 35 Unit 104, NJ 07719",
   description:
@@ -21,13 +22,14 @@ export default async function News() {
             height: 'auto',
           }}/>
         </div>
+        <Script type="text/javascript" src="https://plugin.mysalononline.com/Scripts/external/bookingplugin.js"></Script>
 
         <div className="w-full max-w-6xl min-h-screen mx-auto grid place-content-start justify-center overflow-hidden md:gap-6">
             <h1 className="Services-title font-normal text-xl md:text-3xl uppercase drop-shadow-xl text-center">Booking</h1>
             <iframe 
               className="mb-4 bg-[url('https://webnailsbucket.s3.amazonaws.com/beon/bouncing-circles.svg')] bg-center bg-[length:50px_50px] bg-no-repeat"
               title="booking"
-              src="https://webnailsbucket.s3.amazonaws.com/beon/booking.html" 
+              src="https://plugin.mysalononline.com/External/BookingPlugin/?guid=e907fce7-9cbb-44e8-8db8-bc926cf4f703" 
               width="600px"
               height="600px"
               style={{ border: 0 }}
