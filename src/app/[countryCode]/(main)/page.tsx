@@ -87,7 +87,7 @@ export default async function Home() {
             target="_blank"
             rel="noopener noreferrer"
             >
-            <button className="uppercase bg-theme-14 mt-10 rounded-xl w-[300px] h-10 flex-wrap text-theme-3 text-xl font-thin tracking-wider hover:scale-110">
+            <button className="uppercase bg-theme-14 mt-10 rounded-xl w-[300px] h-10 flex-wrap text-theme-3 text-xl font-thin tracking-wider hover:animate-scale-up-loop">
             Book an appointment
             </button>  
           </a>
@@ -149,7 +149,7 @@ export default async function Home() {
           facebook_link
           bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/Icon+Logo-02.svg')] 
           hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/facebook.png')] 
-          hover:scale-110
+          hover:animate-scale-up-loop
           bg-cover w-10 h-10"
           >
         </a>
@@ -163,7 +163,7 @@ export default async function Home() {
           instagram_link
           bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/Icon+Logo-03.svg')] 
           hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/insta.png')] 
-          hover:scale-110
+          hover:animate-scale-up-loop
           bg-cover w-10 h-10"
           >
         </a>
@@ -177,7 +177,7 @@ export default async function Home() {
           yelp_link
           bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/Icon+Logo-06.svg')] 
           hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/yelp.png')] 
-          hover:scale-110
+          hover:animate-scale-up-loop
           bg-cover w-10 h-10"
           >
         </a>
@@ -191,7 +191,7 @@ export default async function Home() {
           call_link
           bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/Icon+Logo-05.svg')] 
           hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/call.png')] 
-          hover:scale-110
+          hover:animate-scale-up-loop
           bg-cover w-10 h-10"
           >
         </a>
@@ -205,7 +205,7 @@ export default async function Home() {
           google_link
           bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/Icon+Logo-04.svg')] 
           hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/google.png')] 
-          hover:scale-110
+          hover:animate-scale-up-loop
           bg-cover w-10 h-10"
           >
         </a>
