@@ -96,7 +96,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/"
-                          className="block py-2 px-3 sm:hover:text-theme-7 hover:scale-110  sm:p-0 "
+                          className="block py-2 px-3 sm:hover:text-theme-7 hover:animate-scale-up  sm:p-0 "
                           aria-current="page"
                         >
                           Home
@@ -105,7 +105,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/about"
-                          className="block py-2 px-3  sm:hover:text-theme-7  hover:scale-110 sm:p-0 "
+                          className="block py-2 px-3  sm:hover:text-theme-7  hover:animate-scale-up sm:p-0 "
                         >
                           About
                         </a>
@@ -113,7 +113,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/categories/manicure"
-                          className="block py-2 px-3   sm:hover:text-theme-7  hover:scale-110 sm:p-0 "
+                          className="block py-2 px-3   sm:hover:text-theme-7  hover:animate-scale-up sm:p-0 "
                         >
                           Services
                         </a>
@@ -121,7 +121,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/policy"
-                          className="block py-2 px-3   sm:hover:text-theme-7  hover:scale-110 sm:p-0 "
+                          className="block py-2 px-3   sm:hover:text-theme-7  hover:animate-scale-up sm:p-0 "
                         >
                           Policy
                         </a>
@@ -129,7 +129,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/gallery"
-                          className="block py-2 px-3   sm:hover:text-theme-7  hover:scale-110 sm:p-0 "
+                          className="block py-2 px-3   sm:hover:text-theme-7  hover:animate-scale-up sm:p-0 "
                         >
                           Gallery
                         </a>
@@ -137,7 +137,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/news"
-                          className="block py-2 px-3   sm:hover:text-theme-7  hover:scale-110 sm:p-0 "
+                          className="block py-2 px-3   sm:hover:text-theme-7  hover:animate-scale-up sm:p-0 "
                         >
                           News
                         </a>
@@ -145,7 +145,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/hiring"
-                          className="block py-2 px-3   sm:hover:text-theme-7  hover:scale-110 sm:p-0 "
+                          className="block py-2 px-3   sm:hover:text-theme-7  hover:animate-scale-up sm:p-0 "
                         >
                           Hiring
                         </a>
@@ -229,6 +229,10 @@ export default function Nav() {
                         className="block w-full p-2 ps-2 text-sm bg-transparent text-theme-3 border-0 border-b border-theme-3 placeholder:text-theme-3"
                         placeholder="Search..."
                       />
+                    </div>
+                    
+                    <div 
+                      className="bunny-ear-spacer w-20 sm:hidden">
                     </div>
 
                     <button
@@ -388,7 +392,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/"
-                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:scale-110 sm:p-0 "
+                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:animate-scale-up sm:p-0 "
                         aria-current="page"
                       >
                         Home
@@ -397,7 +401,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/about"
-                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:scale-110 sm:p-0 "
+                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:animate-scale-up sm:p-0 "
                       >
                         About
                       </a>
@@ -405,7 +409,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/categories/manicure"
-                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:scale-110 sm:p-0 "
+                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:animate-scale-up sm:p-0 "
                       >
                         Services
                       </a>
@@ -413,7 +417,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/policy"
-                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:scale-110 sm:p-0 "
+                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:animate-scale-up sm:p-0 "
                       >
                         Policy
                       </a>
@@ -421,7 +425,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/gallery"
-                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:scale-110 sm:p-0 "
+                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:animate-scale-up sm:p-0 "
                       >
                         Gallery
                       </a>
@@ -429,7 +433,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/news"
-                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:scale-110 sm:p-0 "
+                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:animate-scale-up sm:p-0 "
                       >
                         News
                       </a>
@@ -437,7 +441,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/hiring"
-                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:scale-110 sm:p-0 "
+                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:animate-scale-up sm:p-0 "
                       >
                         Hiring
                       </a>
@@ -445,7 +449,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/booking"
-                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:scale-110 sm:p-0 "
+                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:animate-scale-up sm:p-0 "
                       >
                         BOOK AN APPOINTMENT
                       </a>
@@ -612,6 +616,10 @@ export default function Nav() {
                         className="block w-full p-2 ps-2 text-sm bg-transparent text-theme-4 border-0 border-b border-theme-4"
                         placeholder="Search..."
                       />
+                    </div>
+
+                    <div 
+                      className="bunny-ear-spacer w-20 sm:hidden">
                     </div>
 
                     <button
