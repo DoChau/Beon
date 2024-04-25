@@ -40,7 +40,7 @@ export default function Nav() {
                         facebook_link
                         bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/Icon+Logo-02.svg')] 
                         hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/facebook.png')] 
-                        bg-cover bg-no-repeat p-2 w-10 h-10"
+                        hover:animate-scale-up-loop bg-cover bg-no-repeat p-2 w-10 h-10"
                       ></a>
 
                       <a
@@ -52,7 +52,7 @@ export default function Nav() {
                         instagram_link
                         bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/Icon+Logo-03.svg')] 
                         hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/insta.png')] 
-                        bg-cover bg-no-repeat p-2 w-10 h-10"
+                        hover:animate-scale-up-loop bg-cover bg-no-repeat p-2 w-10 h-10"
                       ></a>
 
                       <a
@@ -64,7 +64,7 @@ export default function Nav() {
                         yelp_link
                         bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/Icon+Logo-06.svg')] 
                         hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/yelp.png')] 
-                        bg-cover bg-no-repeat p-2 w-10 h-10"
+                        hover:animate-scale-up-loop bg-cover bg-no-repeat p-2 w-10 h-10"
                       ></a>
 
                       <a
@@ -76,7 +76,7 @@ export default function Nav() {
                         call_link
                         bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/Icon+Logo-05.svg')] 
                         hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/call.png')] 
-                        bg-cover bg-no-repeat p-2 w-10 h-10"
+                        hover:animate-scale-up-loop bg-cover bg-no-repeat p-2 w-10 h-10"
                       ></a>
 
                       <a
@@ -88,7 +88,7 @@ export default function Nav() {
                         google_link
                         bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/Icon+Logo-04.svg')] 
                         hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/google.png')] 
-                        bg-cover bg-no-repeat p-2 w-10 h-10"
+                        hover:animate-scale-up-loop bg-cover bg-no-repeat p-2 w-10 h-10"
                       ></a>
                     </div>
 
@@ -336,7 +336,7 @@ export default function Nav() {
                       facebook_link
                       bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/Icon+Logo-02.svg')] 
                       hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/facebook.png')] 
-                      bg-cover bg-no-repeat p-2 w-10 h-10"
+                      hover:animate-scale-up-loop bg-cover bg-no-repeat p-2 w-10 h-10"
                     ></a>
 
                     <a
@@ -348,7 +348,7 @@ export default function Nav() {
                       instagram_link
                       bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/Icon+Logo-03.svg')] 
                       hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/insta.png')] 
-                      bg-cover bg-no-repeat p-2 w-10 h-10"
+                      hover:animate-scale-up-loop bg-cover bg-no-repeat p-2 w-10 h-10"
                     ></a>
 
                     <a
@@ -360,7 +360,7 @@ export default function Nav() {
                       yelp_link
                       bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/Icon+Logo-06.svg')] 
                       hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/yelp.png')] 
-                      bg-cover bg-no-repeat p-2 w-10 h-10"
+                      hover:animate-scale-up-loop bg-cover bg-no-repeat p-2 w-10 h-10"
                     ></a>
 
                     <a
@@ -372,7 +372,7 @@ export default function Nav() {
                       call_link
                       bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/Icon+Logo-05.svg')] 
                       hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/call.png')] 
-                      bg-cover bg-no-repeat p-2 w-10 h-10"
+                      hover:animate-scale-up-loop bg-cover bg-no-repeat p-2 w-10 h-10"
                     ></a>
 
                     <a
@@ -384,7 +384,7 @@ export default function Nav() {
                       google_link
                       bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/Icon+Logo-04.svg')] 
                       hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/google.png')] 
-                      bg-cover bg-no-repeat p-2 w-10 h-10"
+                      hover:animate-scale-up-loop bg-cover bg-no-repeat p-2 w-10 h-10"
                     ></a>
                   </div>
 
@@ -468,7 +468,7 @@ export default function Nav() {
                     facebook_link
                     bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/Icon+Logo-02.svg')] 
                     hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/facebook.png')] 
-                    bg-cover bg-no-repeat p-2 w-10 h-10"
+                    hover:animate-scale-up-loop bg-cover bg-no-repeat p-2 w-10 h-10"
                     ></a>
 
                     <a
@@ -480,7 +480,7 @@ export default function Nav() {
                     instagram_link
                     bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/Icon+Logo-03.svg')] 
                     hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/insta.png')] 
-                    bg-cover bg-no-repeat p-2 w-10 h-10"
+                    hover:animate-scale-up-loop bg-cover bg-no-repeat p-2 w-10 h-10"
                     ></a>
 
                     <a
@@ -492,7 +492,7 @@ export default function Nav() {
                     yelp_link
                     bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/Icon+Logo-06.svg')] 
                     hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/yelp.png')] 
-                    bg-cover bg-no-repeat p-2 w-10 h-10"
+                    hover:animate-scale-up-loop bg-cover bg-no-repeat p-2 w-10 h-10"
                     ></a>
 
                     <a
@@ -504,7 +504,7 @@ export default function Nav() {
                     call_link
                     bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/Icon+Logo-05.svg')] 
                     hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/call.png')] 
-                    bg-cover bg-no-repeat p-2 w-10 h-10"
+                    hover:animate-scale-up-loop bg-cover bg-no-repeat p-2 w-10 h-10"
                     ></a>
 
                     <a
@@ -516,7 +516,7 @@ export default function Nav() {
                     google_link
                     bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/Icon+Logo-04.svg')] 
                     hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/google.png')] 
-                    bg-cover bg-no-repeat p-2 w-10 h-10"
+                    hover:animate-scale-up-loop bg-cover bg-no-repeat p-2 w-10 h-10"
                     ></a>
                   </div>
 
