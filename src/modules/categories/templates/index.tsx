@@ -48,90 +48,117 @@ export default function CategoryTemplate({
         <h1 className="Services-title font-normal text-xl md:text-3xl uppercase mx-auto drop-shadow-xl">Our services</h1>
 
         <div className="CatList w-full grid grid-cols-4 gap-4 md:row-span-7 md:inline-flex px-4 md:space-x-4 md:mx-auto font-normal md:text-base md:justify-around">
-          <a href="/categories/manicure">
-            <button className="CatItem bg-transparent hover:underline hover:underline-offset-8 text-theme-4 flex flex-col items-center justify-center space-y-4">
-              <Image src="https://webnailsbucket.s3.amazonaws.com/pasch/icon-Manicure.svg" 
-                alt="item" 
-                className="ring ring-gray-300 hover:ring-theme-6 hover:animate-bounce focus:ring-theme-6 rounded-full"
-                width={50} 
-                height={50} 
-                sizes="100%"
-                />          
-              <span>Manicure</span>
+          <a href="/categories/manicure"
+            title="service-link"
+            rel="noopener noreferrer"
+            className="CatItem text-theme-4 flex flex-col items-center justify-center space-y-4"
+            >
+            <button 
+              title="service-button"
+              className="
+              bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/icon-Manicure.svg')] 
+              hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/holmdel/icon-Manicure-1.svg')] 
+              hover:animate-scale-up bg-cover bg-no-repeat p-2 w-14 h-14
+              ">
             </button>
+            <span className="hover:bg-theme-7 focus:bg-theme-6 active:bg-theme-6 rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Manicure</span>
           </a>
 
-          <a href="/categories/pedicure">
-            <button className="CatItem bg-transparent hover:underline hover:underline-offset-8 text-theme-4 flex flex-col items-center justify-center space-y-4">
-              <Image src="https://webnailsbucket.s3.amazonaws.com/pasch/icon-Pedicure.svg" 
-                alt="item" 
-                className="ring ring-gray-300 hover:ring-theme-6 hover:animate-bounce focus:ring-theme-6 rounded-full"
-                width={50} 
-                height={50} 
-                sizes="100%"
-                />          
-              <span>Pedicure</span>
+          <a href="/categories/pedicure"
+            title="service-link"
+            rel="noopener noreferrer"
+            className="CatItem text-theme-4 flex flex-col items-center justify-center space-y-4"
+            >
+            <button 
+              title="service-button"
+              className="
+              bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/icon-Pedicure.svg')] 
+              hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/holmdel/icon-Pedicure-1.svg')] 
+              hover:animate-scale-up bg-cover bg-no-repeat p-2 w-14 h-14
+              ">
             </button>
+            <span className="hover:bg-theme-7 focus:bg-theme-6 active:bg-theme-6 rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Pedicure</span>
           </a>
-          <a href="/categories/nail-enhancement">
-            <button className="CatItem bg-transparent hover:underline hover:underline-offset-8 text-theme-4 flex flex-col items-center justify-center space-y-4">
-              <Image src="https://webnailsbucket.s3.amazonaws.com/pasch/icon-nail-Enhancement.svg" 
-                alt="item" 
-                className="ring ring-gray-300 hover:ring-theme-6 hover:animate-bounce focus:ring-theme-6 rounded-full"
-                width={50} 
-                height={50} 
-                sizes="100%"
-                />          
-              <span>Nail Enhancement</span>
+
+          <a 
+            href="/categories/nail-enhancement"
+            title="service-link"
+            rel="noopener noreferrer"
+            className="CatItem text-theme-4 flex flex-col items-center justify-center space-y-4"
+            >
+            <button 
+              title="service-button"
+              className="
+              bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/icon-nail-Enhancement.svg')] 
+              hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/holmdel/icon-nail-Enhancement-1.svg')] 
+              hover:animate-scale-up bg-cover bg-no-repeat p-2 w-14 h-14
+              ">
             </button>
+            <span className="hover:bg-theme-7 focus:bg-theme-6 active:bg-theme-6 rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Nail Enhancement</span>
           </a>
-          <a href="/categories/chair-massage">
-            <button className="CatItem bg-transparent hover:underline hover:underline-offset-8 text-theme-4 flex flex-col items-center justify-center space-y-4">
-              <Image src="https://webnailsbucket.s3.amazonaws.com/pasch/icon-chair.svg" 
-                alt="item" 
-                className="ring ring-gray-300 hover:ring-theme-6 hover:animate-bounce focus:ring-theme-6 rounded-full"
-                width={50} 
-                height={50} 
-                sizes="100%"
-                />          
-              <span>Chair Massage</span>
+
+          <a href="/categories/chair-massage"
+            title="service-link"
+            rel="noopener noreferrer"
+            className="CatItem text-theme-4 flex flex-col items-center justify-center space-y-4"
+            >
+            <button 
+              title="service-button"
+              className="
+              bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/icon-chair.svg')] 
+              hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/holmdel/icon-chair-1.svg')] 
+              hover:animate-scale-up bg-cover bg-no-repeat p-2 w-14 h-14
+              ">
             </button>
+            <span className="hover:bg-theme-7 focus:bg-theme-6 active:bg-theme-6 rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Chair Massage</span>
           </a>
-          <a href="/categories/waxing">
-            <button className="CatItem bg-transparent hover:underline hover:underline-offset-8 text-theme-4 flex flex-col items-center justify-center space-y-4">
-              <Image src="https://webnailsbucket.s3.amazonaws.com/pasch/icon-Waxing.svg" 
-                alt="item" 
-                className="ring ring-gray-300 hover:ring-theme-6 hover:animate-bounce focus:ring-theme-6 rounded-full"
-                width={50} 
-                height={50} 
-                sizes="100%"
-                />          
-              <span>Waxing</span>
+
+          <a href="/categories/waxing"
+            title="service-link"
+            rel="noopener noreferrer"
+            className="CatItem text-theme-4 flex flex-col items-center justify-center space-y-4"
+            >
+            <button 
+              title="service-button"
+              className="
+              bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/icon-Waxing.svg')] 
+              hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/holmdel/icon-Waxing-1.svg')] 
+              hover:animate-scale-up bg-cover bg-no-repeat p-2 w-14 h-14
+              ">
             </button>
+            <span className="hover:bg-theme-7 focus:bg-theme-6 active:bg-theme-6 rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Waxing</span>
           </a>
-          <a className="col-span-2" href="/categories/prince-princess">
-            <button className="CatItem bg-transparent hover:underline hover:underline-offset-8 text-theme-4 flex flex-col items-center justify-center space-y-4 mx-auto">
-              <Image src="https://webnailsbucket.s3.amazonaws.com/pasch/icon-Kids-Services.svg" 
-                alt="item" 
-                className="ring ring-gray-300 hover:ring-theme-6 hover:animate-bounce focus:ring-theme-6 rounded-full"
-                width={50} 
-                height={50} 
-                sizes="100%"
-                />          
-              <span>Prince/ Princess</span>
+
+          <a href="/categories/prince-princess"
+            title="service-link"
+            rel="noopener noreferrer"
+            className="CatItem col-span-2 text-theme-4 flex flex-col items-center justify-center space-y-4"
+            >
+            <button 
+              title="service-button"
+              className="
+              bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/icon-Kids-Services.svg')] 
+              hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/holmdel/icon-Kids-Services-1.svg')] 
+              hover:animate-scale-up bg-cover bg-no-repeat p-2 w-14 h-14
+              ">
             </button>
+            <span className="hover:bg-theme-7 focus:bg-theme-6 active:bg-theme-6 rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Prince/ Princess</span>
           </a>
-          <a href="/categories/add-ons">
-            <button className="CatItem bg-transparent hover:underline hover:underline-offset-8 text-theme-4 flex flex-col items-center justify-center space-y-4">
-              <Image src="https://webnailsbucket.s3.amazonaws.com/pasch/icon-add-ons.svg" 
-                alt="item" 
-                className="ring ring-gray-300 hover:ring-theme-6 hover:animate-bounce focus:ring-theme-6 rounded-full"
-                width={50} 
-                height={50} 
-                sizes="100%"
-                />          
-              <span>Add-ons</span>
+
+          <a href="/categories/add-ons"
+            title="service-link"
+            rel="noopener noreferrer"
+            className="CatItem text-theme-4 flex flex-col items-center justify-center space-y-4"
+            >
+            <button 
+              title="service-button"
+              className="
+              bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/icon-add-ons.svg')] 
+              hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/holmdel/icon-add-ons-1.svg')] 
+              hover:animate-scale-up bg-cover bg-no-repeat p-2 w-14 h-14
+              ">
             </button>
+            <span className="hover:bg-theme-7 focus:bg-theme-6 active:bg-theme-6 rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Add-ons</span>
           </a>
         </div>
 
