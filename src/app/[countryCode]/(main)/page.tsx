@@ -102,7 +102,7 @@ export default async function Home() {
           </div>
 
           <div className="right_widget grid place-items-center md:place-items-end w-full xsmall:w-280px md:w-[450px] mx-auto xsmall:mx-0 scale-75 xsmall:-ml-16 md:-mr-20">
-            <Image src="https://webnailsbucket.s3.amazonaws.com/pasch/How+can+i+help+you-01.svg" 
+            <Image src="https://webnailsbucket.s3.amazonaws.com/pasch/How+can+i+help+you-01+-+black.svg" 
               className=""
               alt="Icon" 
               width={200} 
