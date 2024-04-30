@@ -96,13 +96,13 @@ export default async function Home() {
 
         <div className="widget relative bottom-10 md:inline-flex w-full items-center justify-between space-y-4 xsmall:space-y-0 z-30">
           <div className="left_widget w-full inline-flex items-center justify-center md:justify-start md:w-[50%] xsmall:space-x-6">
-            <div className="md:flex text-theme-4">
+            <div className="md:flex text-theme-3">
               <CurrentWeather data={hourly_data.list[0]} city={hourly_data.city} />
             </div>
           </div>
 
           <div className="right_widget grid place-items-center md:place-items-end w-full xsmall:w-280px md:w-[450px] mx-auto xsmall:mx-0 scale-75 xsmall:-ml-16 md:-mr-20">
-            <Image src="https://webnailsbucket.s3.amazonaws.com/pasch/How+can+i+help+you-01+-+black.svg" 
+            <Image src="https://webnailsbucket.s3.amazonaws.com/rocknails/How+can+i+help+you-white.svg" 
               className=""
               alt="Icon" 
               width={200} 
@@ -216,7 +216,7 @@ export default async function Home() {
       <div className="background flex w-full h-screen absolute top-0 m-0 overflow-hidden -z-50">
          <video className="wmp4-bg w-full h-screen object-cover absolute top-0 z-0"
           loop muted autoPlay
-          src="https://webnailsbucket.s3.amazonaws.com/beon/Beon+hoa+bg+2-vmake.mp4">
+          src="https://webnailsbucket.s3.amazonaws.com/beon/home-video.mp4">
         </video>
 
         <div className="w-full h-screen absolute top-10 z-10 scale-110">
