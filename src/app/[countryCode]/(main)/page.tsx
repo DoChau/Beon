@@ -76,7 +76,7 @@ export default async function Home() {
     <>
       <div className="grid max-w-6xl w-full h-screen -mb-12 sm:-mb-16 p-5 mx-auto items-center overflow-hidden font-futura z-0">
 
-        <div className="logocontent grid items-center mx-auto justify-items-center z-10">
+        <div className="logocontent grid items-center mx-auto justify-items-center mb-10 z-10">
 
           <div className="logo">
             <Image src="https://webnailsbucket.s3.amazonaws.com/beon/logo+beon-01.svg" alt="logo" width={152} height={209}/>
@@ -101,7 +101,7 @@ export default async function Home() {
             </div>
           </div>
 
-          <div className="right_widget grid place-items-center md:place-items-end w-full xsmall:w-280px md:w-[450px] mx-auto xsmall:mx-0 scale-75 xsmall:-ml-16 md:-mr-20">
+          <div className="right_widget grid place-items-center md:place-items-end w-full xsmall:w-280px md:w-[450px] mx-auto xsmall:mx-0 sm:scale-75 xsmall:-ml-16 md:-mr-20">
             <Image src="https://webnailsbucket.s3.amazonaws.com/rocknails/How+can+i+help+you-white.svg" 
               className=""
               alt="Icon" 
