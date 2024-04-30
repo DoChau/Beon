@@ -198,6 +198,7 @@ export default function CategoryTemplate({
                 <PaginatedProducts
                   sortBy={sortBy || "price_asc"}
                   page={pageNumber}
+                  collectionId={process.env.MEDUSA_BACKEND_COLLECTION}
                   categoryId={category.id}
                   countryCode={countryCode}
                 />
