@@ -113,7 +113,7 @@ export default async function Home() {
             }}/>
 
             <iframe 
-              className="rounded-lg mb-4 -mt-4 -mb-12"
+              className="rounded-lg -mt-4 -mb-12"
               title="radio_bar"
               src="https://webnailsbucket.s3.amazonaws.com/common/radio.html" 
               width="280" 
