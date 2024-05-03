@@ -10,7 +10,7 @@ export const getHourlyData = async ({
       {
         method: "GET",
         next: {
-          revalidate: 60000,
+          revalidate: 60,
         },
       }
     )
