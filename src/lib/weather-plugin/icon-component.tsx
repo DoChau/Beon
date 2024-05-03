@@ -20,7 +20,7 @@ export default function IconComponent({
       <Image
         fill
         alt={weatherCode}
-        src={`https://webnailsbucket.s3.amazonaws.com/pasch/weather/icons/wi-${iconName}.svg`}
+        src={`https://webnailsbucket.s3.amazonaws.com/common/weather/wi-${iconName}.svg`}
         className="select-none"
       />
     </div>

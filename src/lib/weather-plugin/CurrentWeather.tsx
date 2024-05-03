@@ -24,15 +24,11 @@ export default function CurrentWeather({ data, city }: CurrentWeatherProps) {
           </li>
         </ul>
       </div>
-      <div className="
-        weather_icon
-        hover:scale-110
-        bg-cover w-10 h-10"
-        >
+      <div>
         <IconComponent
           weatherCode={data.weather[0].id}
           x={data.sys.pod}
-          className="h-10 w-10"
+          className="h-16 w-16"
         />
       </div>
       <ul>
