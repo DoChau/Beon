@@ -2,15 +2,12 @@
 import { Metadata } from "next"
 import Image from "next/image"
 import Script from "next/script"
+import BgSlider from '@modules/home/components/BgSlider'
 //import { getCollectionsList, getProductsList, getRegion } from "@lib/data"
 //import FeaturedProducts from "@modules/home/components/featured-products"
 //import Hero from "@modules/home/components/hero"
 //import Iframe from 'react-iframe'
 //import Script from 'next/script'
-
-
-//import React, { useState } from 'react';
-
 
 //logo text clip
 //          <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -18,19 +15,6 @@ import Script from "next/script"
 //<h1 className="rainbow-text font-medium justify-self-center z-10">
 //  P &nbsp; SCH
 //</h1>
-
-//wave bottom
-//<div className="ocean">
-//<div className="antiwave"></div>
-//<div className="wave"></div>
-//<div className="wave"></div>
-//<div className="wave"></div>
-//</div> 
-
-//discount 3d
-//<div>
-//   <h3 className="discount z-10 w-full" > Happy hour and more... </h3>
-// </div>
 
 import './style.css'
 
@@ -211,14 +195,19 @@ export default async function Home() {
         </a>
       </div>
 
-      <Script src="https://cdn.tailwindcss.com"></Script> 
+      {/*<Script src="https://cdn.tailwindcss.com"></Script>*/}
 
-      <div className="background flex w-full h-screen absolute top-0 m-0 overflow-hidden -z-50">
-         <video className="wmp4-bg w-full h-screen object-cover absolute top-0 z-0"
+      <div className="background w-full h-screen absolute top-0 m-0 overflow-hidden -z-50">
+        {/*
+        <video className="wmp4-bg w-full h-screen object-cover absolute top-0 z-0"
           loop muted autoPlay
           src="https://webnailsbucket.s3.amazonaws.com/beon/home-video.mp4">
         </video>
-
+        */}
+        <div className="w-full h-screen absolute top-0 right-0 z-0">
+          <BgSlider/>
+        </div>
+        
         <div className="w-full h-screen absolute top-10 z-10 scale-110">
           <Image src="https://webnailsbucket.s3.amazonaws.com/beon/home+bg+A-01-01.png" 
             alt="bg"
