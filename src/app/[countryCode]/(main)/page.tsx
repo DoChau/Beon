@@ -78,7 +78,7 @@ export default async function Home() {
           
         </div>
 
-        <div className="widget relative bottom-10 md:inline-flex w-full items-center justify-between space-y-4 xsmall:space-y-0 z-30">
+        <div className="widget relative bottom-10 sm:px-5 md:inline-flex w-full items-center justify-between space-y-4 xsmall:space-y-0 z-30">
           <div className="left_widget w-full inline-flex items-center justify-center md:justify-start md:w-[50%] xsmall:space-x-6">
             <div className="md:flex text-theme-3">
               <CurrentWeather data={hourly_data.list[0]} city={hourly_data.city} />
