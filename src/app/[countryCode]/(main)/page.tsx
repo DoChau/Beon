@@ -86,7 +86,7 @@ export default async function Home() {
           </div>
 
           <div className="right_widget grid place-items-center md:place-items-end w-full xsmall:w-280px md:w-[450px] mx-auto xsmall:mx-0 sm:scale-75 xsmall:-ml-16 md:-mr-20">
-            <div className="my-4 space-x-6 items-center">
+            <div className="my-4 space-x-6 items-center text-white">
               <p className="inline-flex text-sm">
                 Hello, how can i help you?
               </p>
