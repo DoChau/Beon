@@ -48,6 +48,7 @@
     "react-iframe": "^1.8.5",
     "react-instantsearch-hooks-web": "^6.29.0",
     "react-intersection-observer": "^9.3.4",
+    "react-slideshow-image": "^4.3.1",
     "react-use-draggable-scroll": "^0.4.7",
     "tailwindcss-radix": "^2.8.0",
     "webpack": "^5"
