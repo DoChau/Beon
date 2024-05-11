@@ -1,6 +1,37 @@
 const path = require("path")
 
 module.exports = {
+  daisyui: {
+    themes: [
+      {
+        cupcake: {
+            ...require("daisyui/src/theming/themes")["cupcake"],
+            'primary' : 'rgb(127, 91, 92)',
+            'secondary' : '#f9d7cd',
+            'accent'  : '#e28a6f',
+            'accent-content'  : '#fff',
+            'secondary-content' : 'rgb(237, 77, 51)',
+            'base-100': "rgb(173, 194, 199)",
+        },
+      },
+      {
+        dark: {
+            ...require("daisyui/src/theming/themes")["dark"],
+            'primary' : '#571400',
+            'secondary' : '#571400',
+            'base-100': "#525252",
+        },
+      },
+      "aqua",
+    ],
+    darkTheme: "cupcake", // name of one of the included themes for dark mode
+    base: true, // applies background color and foreground color for root element by default
+    styled: true, // include daisyUI colors and design decisions for all components
+    utils: true, // adds responsive and modifier utility classes
+    prefix: "", // prefix for daisyUI classnames (components, modifiers and responsive class names. Not colors)
+    logs: true, // Shows info about daisyUI version and used config in the console when building your CSS
+    themeRoot: ":root", // The element that receives theme color CSS variables
+  },
   darkMode: "class",
   presets: [require("@medusajs/ui-preset")],
   content: [
@@ -204,7 +235,8 @@ module.exports = {
   },
   plugins: [
     require("tailwindcss-radix")(),
-  
+    require('daisyui'),
+
   ],
   
 }

@@ -14,19 +14,19 @@ export default function Nav() {
     case "/us":
       return (
         <>
-          <div className="sticky top-0 mx-auto w-full bg-theme-14 bg-opacity-75 h-12 sm:h-16 place-content-start sm:place-content-center z-50 group duration-200 text-theme-3">
+          <div className="sticky top-0 mx-auto w-full bg-primary bg-opacity-75 h-12 sm:h-16 place-content-start sm:place-content-center z-50 group duration-200 text-primary-content border-primary-content">
             <header className="relative w-full flex flex-wrap">
               <nav className="m-auto max-w-6xl w-full sm:px-5 justify-self-center">
                 <div className="mx-auto flex flex-wrap items-center justify-between">
                   <div
-                    className="items-center justify-between hidden px-2 w-full h-screen sm:h-fit bg-theme-14 sm:bg-transparent sm:flex sm:w-auto order-2 sm:order-1"
+                    className="items-center justify-between hidden px-2 w-full h-screen sm:h-fit bg-primary sm:bg-transparent sm:flex sm:w-auto order-2 sm:order-1"
                     id="search-navbar"
                   >
                     <div className="relative my-4 sm:hidden">
                       <input
                         type="text"
                         id="search-navbar"
-                        className="block w-full p-2 ps-2 text-sm text-theme-3 rounded-lg bg-transparent border border-theme-3"
+                        className="block w-full p-2 ps-2 text-sm rounded-lg bg-transparent border"
                         placeholder="Search..."
                       />
                     </div>
@@ -96,7 +96,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/"
-                          className="block py-2 px-3 sm:hover:text-theme-7 hover:animate-scale-up  sm:p-0 "
+                          className="block py-2 px-3 sm:hover:text-primary-content hover:animate-scale-up  sm:p-0 "
                           aria-current="page"
                         >
                           Home
@@ -105,7 +105,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/about"
-                          className="block py-2 px-3  sm:hover:text-theme-7  hover:animate-scale-up sm:p-0 "
+                          className="block py-2 px-3  sm:hover:text-primary-content  hover:animate-scale-up sm:p-0 "
                         >
                           About
                         </a>
@@ -113,7 +113,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/categories/manicure"
-                          className="block py-2 px-3   sm:hover:text-theme-7  hover:animate-scale-up sm:p-0 "
+                          className="block py-2 px-3   sm:hover:text-primary-content  hover:animate-scale-up sm:p-0 "
                         >
                           Services
                         </a>
@@ -121,7 +121,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/policy"
-                          className="block py-2 px-3   sm:hover:text-theme-7  hover:animate-scale-up sm:p-0 "
+                          className="block py-2 px-3   sm:hover:text-primary-content  hover:animate-scale-up sm:p-0 "
                         >
                           Policy
                         </a>
@@ -129,7 +129,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/gallery"
-                          className="block py-2 px-3   sm:hover:text-theme-7  hover:animate-scale-up sm:p-0 "
+                          className="block py-2 px-3   sm:hover:text-primary-content  hover:animate-scale-up sm:p-0 "
                         >
                           Gallery
                         </a>
@@ -137,7 +137,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/news"
-                          className="block py-2 px-3   sm:hover:text-theme-7  hover:animate-scale-up sm:p-0 "
+                          className="block py-2 px-3   sm:hover:text-primary-content  hover:animate-scale-up sm:p-0 "
                         >
                           News
                         </a>
@@ -145,7 +145,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/hiring"
-                          className="block py-2 px-3   sm:hover:text-theme-7  hover:animate-scale-up sm:p-0 "
+                          className="block py-2 px-3   sm:hover:text-primary-content  hover:animate-scale-up sm:p-0 "
                         >
                           Hiring
                         </a>
@@ -156,7 +156,7 @@ export default function Nav() {
                   <div className="flex-row inline-flex w-screen sm:w-60 sm:order-2 order-1 place-items-center justify-around items-end">
                     <button
                       type="button"
-                      className="sm:hidden text-theme-3 focus:outline-none focus:ring-theme-1 rounded-lg text-sm p-2.5 me-1"
+                      className="sm:hidden rounded-lg text-sm p-2.5 me-1"
                       data-collapse-toggle="search-navbar"
                       aria-controls="search-navbar"
                       aria-expanded="false"
@@ -180,7 +180,7 @@ export default function Nav() {
                     </button>
 
                     <button
-                      className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-theme-3 rounded-lg sm:hidden focus:outline-none focus:ring-theme-1"
+                      className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg sm:hidden"
                       data-collapse-toggle="search-navbar"
                       type="button"
                       aria-controls="navbar-search"
@@ -207,7 +207,7 @@ export default function Nav() {
                     <div className="relative hidden sm:block w-40 mr-4">
                       <div className="absolute inset-y-0 end-2 flex items-center ps-3 pointer-events-none">
                         <svg
-                          className="w-4 h-4 text-theme-3"
+                          className="w-4 h-4"
                           aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -226,7 +226,7 @@ export default function Nav() {
                       <input
                         type="text"
                         id="search-navbar"
-                        className="block w-full p-2 ps-2 text-sm bg-transparent text-theme-3 border-0 border-b border-theme-3 placeholder:text-theme-3"
+                        className="block w-full p-2 ps-2 text-sm bg-transparent border-0 border-b"
                         placeholder="Search..."
                       />
                     </div>
@@ -236,7 +236,7 @@ export default function Nav() {
                     </div>
 
                     <button
-                      className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-theme-3 focus:outline-none focus:ring-theme-1"
+                      className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm"
                       type="button"
                     >
                       <span className="sr-only">Basket</span>
@@ -245,15 +245,28 @@ export default function Nav() {
                         href="/cart"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="
-                    basket_link
-                    bg-[url('https://webnailsbucket.s3.amazonaws.com/beon/bag+white.svg')] 
-                    bg-auto bg-no-repeat w-6 h-6"
-                      ></a>
+                        className="basket_link hover:animate-scale-up"
+                      >
+                        <svg
+                          className="w-7 h-7"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M9 11V6C9 4.34315 10.3431 3 12 3C13.6569 3 15 4.34315 15 6V10.9673M10.4 21H13.6C15.8402 21 16.9603 21 17.816 20.564C18.5686 20.1805 19.1805 19.5686 19.564 18.816C20 17.9603 20 16.8402 20 14.6V12.2C20 11.0799 20 10.5198 19.782 10.092C19.5903 9.71569 19.2843 9.40973 18.908 9.21799C18.4802 9 17.9201 9 16.8 9H7.2C6.0799 9 5.51984 9 5.09202 9.21799C4.71569 9.40973 4.40973 9.71569 4.21799 10.092C4 10.5198 4 11.0799 4 12.2V14.6C4 16.8402 4 17.9603 4.43597 18.816C4.81947 19.5686 5.43139 20.1805 6.18404 20.564C7.03968 21 8.15979 21 10.4 21Z"                        
+                            />
+                          </svg>
+                      </a>
                     </button>
 
                     <button
-                      className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-theme-3 rounded-lg focus:outline-none focus:ring-theme-1"
+                      className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg"
                       type="button"
                     >
                       <span className="sr-only">Profile</span>
@@ -262,11 +275,25 @@ export default function Nav() {
                         href="/profile"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="
-                    profile_link
-                    bg-[url('https://webnailsbucket.s3.amazonaws.com/beon/profile+white.svg')] 
-                    bg-auto bg-no-repeat w-6 h-6"
-                      ></a>
+                        className="basket_link hover:animate-scale-up"
+                      >
+                        <svg
+                          className="w-7 h-7"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="1"
+                            d="M14.3365 12.3466L14.0765 11.9195C13.9082 12.022 13.8158 12.2137 13.8405 12.4092C13.8651 12.6046 14.0022 12.7674 14.1907 12.8249L14.3365 12.3466ZM9.6634 12.3466L9.80923 12.8249C9.99769 12.7674 10.1348 12.6046 10.1595 12.4092C10.1841 12.2137 10.0917 12.022 9.92339 11.9195L9.6634 12.3466ZM4.06161 19.002L3.56544 18.9402L4.06161 19.002ZM19.9383 19.002L20.4345 18.9402L19.9383 19.002ZM16 8.5C16 9.94799 15.2309 11.2168 14.0765 11.9195L14.5965 12.7737C16.0365 11.8971 17 10.3113 17 8.5H16ZM12 4.5C14.2091 4.5 16 6.29086 16 8.5H17C17 5.73858 14.7614 3.5 12 3.5V4.5ZM7.99996 8.5C7.99996 6.29086 9.79082 4.5 12 4.5V3.5C9.23854 3.5 6.99996 5.73858 6.99996 8.5H7.99996ZM9.92339 11.9195C8.76904 11.2168 7.99996 9.948 7.99996 8.5H6.99996C6.99996 10.3113 7.96342 11.8971 9.40342 12.7737L9.92339 11.9195ZM9.51758 11.8683C6.36083 12.8309 3.98356 15.5804 3.56544 18.9402L4.55778 19.0637C4.92638 16.1018 7.02381 13.6742 9.80923 12.8249L9.51758 11.8683ZM3.56544 18.9402C3.45493 19.8282 4.19055 20.5 4.99996 20.5V19.5C4.70481 19.5 4.53188 19.2719 4.55778 19.0637L3.56544 18.9402ZM4.99996 20.5H19V19.5H4.99996V20.5ZM19 20.5C19.8094 20.5 20.545 19.8282 20.4345 18.9402L19.4421 19.0637C19.468 19.2719 19.2951 19.5 19 19.5V20.5ZM20.4345 18.9402C20.0164 15.5804 17.6391 12.8309 14.4823 11.8683L14.1907 12.8249C16.9761 13.6742 19.0735 16.1018 19.4421 19.0637L20.4345 18.9402Z"
+                            />
+                         
+                        </svg>
+                      </a>
                     </button>
                   </div>
                 </div>
@@ -278,7 +305,7 @@ export default function Nav() {
     default:
       return (
         <>
-          <div className="sticky top-0 w-full h-44 mx-auto bg-theme-3 place-content-start sm:place-content-center z-50 group duration-200">
+          <div className="sticky top-0 w-full h-44 mx-auto bg-secondary text-base-content place-content-start sm:place-content-center z-50 group duration-200">
             <header className="w-full relative flex flex-wrap">
               <nav className="w-full mx-auto max-w-6xl grid">
                 <div className="Booking hidden top-[10px] right-[-30px] sm:right-[0px] xl:top-[10px] xl:right-[10%] scale-50 opacity-80 xl:scale-75 w-52 h-52 z-50">
@@ -313,14 +340,14 @@ export default function Nav() {
                 </div>
 
                 <div
-                  className="w-full h-screen hidden absolute top-10 items-center justify-center bg-theme-14 sm:flex sm:static sm:h-6 sm:bg-transparent order-2 mx-auto"
+                  className="w-full h-screen hidden absolute top-10 items-center justify-center bg-secondary sm:flex sm:static sm:h-6 sm:bg-transparent order-2 mx-auto"
                   id="search-navbar"
                 >
                   <div className="relative my-4 sm:hidden">
                     <input
                       type="text"
                       id="search-navbar"
-                      className="block w-full p-2 ps-2 text-sm text-theme-4 rounded-lg bg-transparent border border-theme-4"
+                      className="block w-full p-2 ps-2 text-sm rounded-lg bg-transparent border"
                       placeholder="Search..."
                     />
                   </div>
@@ -392,7 +419,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/"
-                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:animate-scale-up sm:p-0 "
+                        className="block py-2 px-3 text-base-content sm:text-base-content hover:text-theme-7 hover:animate-scale-up sm:p-0 "
                         aria-current="page"
                       >
                         Home
@@ -401,7 +428,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/about"
-                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:animate-scale-up sm:p-0 "
+                        className="block py-2 px-3 text-base-content sm:text-base-content hover:text-theme-7 hover:animate-scale-up sm:p-0 "
                       >
                         About
                       </a>
@@ -409,7 +436,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/categories/manicure"
-                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:animate-scale-up sm:p-0 "
+                        className="block py-2 px-3 text-base-content sm:text-base-content hover:text-theme-7 hover:animate-scale-up sm:p-0 "
                       >
                         Services
                       </a>
@@ -417,7 +444,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/policy"
-                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:animate-scale-up sm:p-0 "
+                        className="block py-2 px-3 text-base-content sm:text-base-content hover:text-theme-7 hover:animate-scale-up sm:p-0 "
                       >
                         Policy
                       </a>
@@ -425,7 +452,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/gallery"
-                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:animate-scale-up sm:p-0 "
+                        className="block py-2 px-3 text-base-content sm:text-base-content hover:text-theme-7 hover:animate-scale-up sm:p-0 "
                       >
                         Gallery
                       </a>
@@ -433,7 +460,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/news"
-                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:animate-scale-up sm:p-0 "
+                        className="block py-2 px-3 text-base-content sm:text-base-content hover:text-theme-7 hover:animate-scale-up sm:p-0 "
                       >
                         News
                       </a>
@@ -441,7 +468,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/hiring"
-                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:animate-scale-up sm:p-0 "
+                        className="block py-2 px-3 text-base-content sm:text-base-content hover:text-theme-7 hover:animate-scale-up sm:p-0 "
                       >
                         Hiring
                       </a>
@@ -449,7 +476,7 @@ export default function Nav() {
                     <li>
                       <a
                         href="/booking"
-                        className="block py-2 px-3 text-theme-3 sm:text-theme-4 hover:text-theme-7 hover:animate-scale-up sm:p-0 "
+                        className="block py-2 px-3 text-base-content sm:text-base-content hover:text-theme-7 hover:animate-scale-up sm:p-0 "
                       >
                         BOOK AN APPOINTMENT
                       </a>
@@ -543,7 +570,7 @@ export default function Nav() {
                   <div className="Search-bar w-full sm:w-60 inline-flex justify-around sm:justify-end order-1 sm:order-3">
                     <button
                       type="button"
-                      className="sm:hidden text-theme-4 focus:outline-none focus:ring-theme-1 rounded-lg text-sm p-2.5 me-1"
+                      className="sm:hidden text-base-content rounded-lg text-sm p-2.5 me-1"
                       data-collapse-toggle="search-navbar"
                       aria-controls="search-navbar"
                       aria-expanded="false"
@@ -567,7 +594,7 @@ export default function Nav() {
                     </button>
 
                     <button
-                      className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-theme-4 rounded-lg sm:hidden focus:outline-none focus:ring-theme-1"
+                      className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-base-content rounded-lg sm:hidden"
                       data-collapse-toggle="search-navbar"
                       type="button"
                       aria-controls="navbar-search"
@@ -594,7 +621,7 @@ export default function Nav() {
                     <div className="relative hidden sm:block w-40 mr-4">
                       <div className="absolute inset-y-0 end-2 flex items-center ps-3">
                         <svg
-                          className="w-4 h-4 text-theme-4"
+                          className="w-4 h-4 text-base-content"
                           aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -613,7 +640,7 @@ export default function Nav() {
                       <input
                         type="text"
                         id="search-navbar"
-                        className="block w-full p-2 ps-2 text-sm bg-transparent text-theme-4 border-0 border-b border-theme-4"
+                        className="block w-full p-2 ps-2 text-sm bg-transparent text-base-content border-0 border-b border-base-content"
                         placeholder="Search..."
                       />
                     </div>
@@ -623,7 +650,7 @@ export default function Nav() {
                     </div>
 
                     <button
-                      className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-theme-4 focus:outline-none focus:ring-theme-1"
+                      className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-base-content"
                       type="button"
                     >
                       <span className="sr-only">Basket</span>
@@ -632,15 +659,28 @@ export default function Nav() {
                         href="/cart"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="
-                      basket_link
-                      bg-[url('https://webnailsbucket.s3.amazonaws.com/beon/bag.svg')] 
-                      bg-auto bg-no-repeat w-6 h-6"
-                      ></a>
+                        className="basket_link hover:animate-scale-up"
+                      >
+                        <svg
+                          className="w-7 h-7"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M9 11V6C9 4.34315 10.3431 3 12 3C13.6569 3 15 4.34315 15 6V10.9673M10.4 21H13.6C15.8402 21 16.9603 21 17.816 20.564C18.5686 20.1805 19.1805 19.5686 19.564 18.816C20 17.9603 20 16.8402 20 14.6V12.2C20 11.0799 20 10.5198 19.782 10.092C19.5903 9.71569 19.2843 9.40973 18.908 9.21799C18.4802 9 17.9201 9 16.8 9H7.2C6.0799 9 5.51984 9 5.09202 9.21799C4.71569 9.40973 4.40973 9.71569 4.21799 10.092C4 10.5198 4 11.0799 4 12.2V14.6C4 16.8402 4 17.9603 4.43597 18.816C4.81947 19.5686 5.43139 20.1805 6.18404 20.564C7.03968 21 8.15979 21 10.4 21Z"                        
+                            />
+                          </svg>
+                      </a>
                     </button>
 
                     <button
-                      className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-theme-4 rounded-lg focus:outline-none focus:ring-theme-1"
+                      className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-base-content rounded-lg"
                       type="button"
                     >
                       <span className="sr-only">Profile</span>
@@ -649,11 +689,25 @@ export default function Nav() {
                         href="/profile"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="
-                      profile_link
-                      bg-[url('https://webnailsbucket.s3.amazonaws.com/beon/profile.svg')] 
-                      bg-auto bg-no-repeat w-6 h-6"
-                      ></a>
+                        className="basket_link hover:animate-scale-up"
+                      >
+                        <svg
+                          className="w-7 h-7"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="1"
+                            d="M14.3365 12.3466L14.0765 11.9195C13.9082 12.022 13.8158 12.2137 13.8405 12.4092C13.8651 12.6046 14.0022 12.7674 14.1907 12.8249L14.3365 12.3466ZM9.6634 12.3466L9.80923 12.8249C9.99769 12.7674 10.1348 12.6046 10.1595 12.4092C10.1841 12.2137 10.0917 12.022 9.92339 11.9195L9.6634 12.3466ZM4.06161 19.002L3.56544 18.9402L4.06161 19.002ZM19.9383 19.002L20.4345 18.9402L19.9383 19.002ZM16 8.5C16 9.94799 15.2309 11.2168 14.0765 11.9195L14.5965 12.7737C16.0365 11.8971 17 10.3113 17 8.5H16ZM12 4.5C14.2091 4.5 16 6.29086 16 8.5H17C17 5.73858 14.7614 3.5 12 3.5V4.5ZM7.99996 8.5C7.99996 6.29086 9.79082 4.5 12 4.5V3.5C9.23854 3.5 6.99996 5.73858 6.99996 8.5H7.99996ZM9.92339 11.9195C8.76904 11.2168 7.99996 9.948 7.99996 8.5H6.99996C6.99996 10.3113 7.96342 11.8971 9.40342 12.7737L9.92339 11.9195ZM9.51758 11.8683C6.36083 12.8309 3.98356 15.5804 3.56544 18.9402L4.55778 19.0637C4.92638 16.1018 7.02381 13.6742 9.80923 12.8249L9.51758 11.8683ZM3.56544 18.9402C3.45493 19.8282 4.19055 20.5 4.99996 20.5V19.5C4.70481 19.5 4.53188 19.2719 4.55778 19.0637L3.56544 18.9402ZM4.99996 20.5H19V19.5H4.99996V20.5ZM19 20.5C19.8094 20.5 20.545 19.8282 20.4345 18.9402L19.4421 19.0637C19.468 19.2719 19.2951 19.5 19 19.5V20.5ZM20.4345 18.9402C20.0164 15.5804 17.6391 12.8309 14.4823 11.8683L14.1907 12.8249C16.9761 13.6742 19.0735 16.1018 19.4421 19.0637L20.4345 18.9402Z"
+                            />
+                         
+                        </svg>
+                      </a>
                     </button>
                   </div>
                 </div>

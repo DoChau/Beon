@@ -31,7 +31,7 @@ export default function CategoryTemplate({
 
   return (
     <>
-    <div className="w-full bg-theme-10 grid gap-4 xsmall:gap-6 font-futura text-theme-4 font-thin text-sm">
+    <div className="w-full bg-base-100 text-base-content grid gap-4 xsmall:gap-6 font-futura font-thin text-sm">
       <div className="Banner w-full h-fit xl:h-[300px] object-bottom overflow-hidden mx-auto">
             <Image src="https://webnailsbucket.s3.amazonaws.com/beon/services-banner2.png" 
             alt="banner" 
@@ -77,7 +77,7 @@ export default function CategoryTemplate({
               hover:animate-scale-up bg-cover bg-no-repeat p-2 w-14 h-14
               ">
             </button>
-            <span className="hover:bg-theme-7 focus:bg-theme-6 active:bg-theme-6 rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Pedicure</span>
+            <span className="hover:bg-theme-7 focus:bg-theme-6 active:bg-theme-6 rounded-full py-2 px-2 text-center text-theme-4 hover:text-theme-3">Pedicure</span>
           </a>
 
           <a 
@@ -164,7 +164,7 @@ export default function CategoryTemplate({
 
 
         <div className="w-full flex flex-col md:flex-row md:space-x-4 md:text-base items-start justify-center" data-testid="category-container">
-          <div className="sideInfo w-full mx-auto p-4 md:w-[20%] items-start justify-center bg-theme-13 md:rounded-xl order-2 md:order-1">
+          <div className="sideInfo w-full mx-auto p-4 md:w-[20%] items-start justify-center bg-accent text-accent-content md:rounded-xl order-2 md:order-1">
             <div>
               <h3 className="text-center mb-4"><strong>Price regulation</strong></h3>
               <h4 className="text-justify text-xs">The Price on services are varies, depend on the length, shapes, thickness and the amount of time need to complete the work per your request.  The price here are just basic price.  When you come our Salon, our front desk staff and our technician will explain more detail. We appreciates your understand</h4>
@@ -172,7 +172,7 @@ export default function CategoryTemplate({
           </div>
 
           <div className="w-full mx-auto md:w-[75%] order-1 md:order-2 mb-4">
-            <div className="w-full h-8 bg-theme-4 text-theme-3 font-normal justify-center items-center content-center">
+            <div className="w-full h-8 bg-primary text-primary-content font-normal justify-center items-center content-center">
               {parents &&
                 parents.map((parent) => (
                   <span key={parent.id}>
@@ -188,7 +188,7 @@ export default function CategoryTemplate({
               <h1 className="text-center" data-testid="category-page-title">{category.name}</h1>
             </div>
             {category.description && (
-              <div className="p-2 text-center bg-theme-13 text-xs">
+              <div className="p-2 text-center bg-accent text-accent-content text-xs">
                 <p>{category.description}</p>
               </div>
             )}

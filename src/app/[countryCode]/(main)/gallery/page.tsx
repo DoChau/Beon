@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default async function Gallery() {
     return (
     <>
-      <div className="w-full bg-theme-10 grid gap-4 xsmall:gap-6 font-futura text-theme-4">
+      <div className="w-full bg-base-100 text-base-content grid gap-4 xsmall:gap-6 font-futura">
         <div className="Banner w-full h-fit xl:h-[300px] object-bottom overflow-hidden mx-auto">
           <Image src="https://webnailsbucket.s3.amazonaws.com/pasch/news-banner.png" 
           alt="banner" 
