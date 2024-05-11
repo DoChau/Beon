@@ -71,7 +71,7 @@ export default async function Home() {
             target="_blank"
             rel="noopener noreferrer"
             >
-            <button className="uppercase bg-theme-14 mt-10 rounded-xl w-[300px] h-10 flex-wrap text-theme-3 text-xl font-thin tracking-wider hover:animate-scale-up-loop">
+            <button className="uppercase bg-primary mt-10 rounded-xl w-[300px] h-10 flex-wrap text-primary-content text-xl font-thin tracking-wider hover:animate-scale-up-loop">
             Book an appointment
             </button>  
           </a>
