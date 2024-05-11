@@ -86,15 +86,17 @@ export default async function Home() {
           </div>
 
           <div className="right_widget grid place-items-center md:place-items-end w-full xsmall:w-280px md:w-[450px] mx-auto xsmall:mx-0 sm:scale-75 xsmall:-ml-16 md:-mr-20">
-            <Image src="https://webnailsbucket.s3.amazonaws.com/rocknails/How+can+i+help+you-white.svg" 
-              className=""
-              alt="Icon" 
-              width={200} 
-              height={50} 
-              style={{
-                width: '100%',
-                height: 'auto',
-            }}/>
+            <div className="my-4 space-x-6 items-center">
+              <p className="inline-flex text-sm">
+                Hello, how can i help you?
+              </p>
+              <a 
+                className="inline-flex underline text-xs"
+                href="tel:(732)-442-4567"
+                >
+              Customer Services
+              </a>
+            </div>
 
             <iframe 
               className="rounded-lg -mt-4 -mb-12"

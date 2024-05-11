@@ -8,7 +8,7 @@ export default async function Footer() {
           <div>
             <a 
               className="inline-flex space-x-4 items-center"
-              title="call-divnk"
+              title="call-link"
               href="/" 
               rel="noopener noreferrer"
               >
@@ -53,7 +53,7 @@ export default async function Footer() {
           <div>
             <a  
               className="inline-flex space-x-4 items-center"
-              title="address-divnk"
+              title="address-link"
               href="https://maps.app.goo.gl/vnL3WzMfhNfJF6df9" 
               target="_blank"
               rel="noopener noreferrer"
@@ -86,7 +86,7 @@ export default async function Footer() {
           <div>
             <a 
               className="inline-flex space-x-4 items-center uppercase"
-              title="policy-divnk"
+              title="policy-link"
               href="/policy" 
               rel="noopener noreferrer"
               >
@@ -97,7 +97,7 @@ export default async function Footer() {
           <div>
             <a 
               className="inline-flex space-x-4 items-center uppercase"
-              title="business-divnk"
+              title="business-link"
               href="/policy" 
               rel="noopener noreferrer"
               >
