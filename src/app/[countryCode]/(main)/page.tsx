@@ -58,7 +58,7 @@ export default async function Home() {
 
   return (
     <>
-      <div className="grid max-w-6xl w-full h-screen -mb-12 sm:-mb-16 p-5 mx-auto items-center overflow-hidden font-futura z-0">
+      <div className="grid max-w-6xl w-full h-screen -mb-12 sm:-mb-16 p-5 mx-auto items-center overflow-hidden font-futura text-primary-content z-0">
 
         <div className="logocontent grid items-center mx-auto justify-items-center mb-10 z-10">
 
@@ -71,7 +71,7 @@ export default async function Home() {
             target="_blank"
             rel="noopener noreferrer"
             >
-            <button className="uppercase bg-primary mt-10 rounded-xl w-[300px] h-10 flex-wrap text-primary-content text-xl font-thin tracking-wider hover:animate-scale-up-loop">
+            <button className="uppercase bg-primary mt-10 rounded-xl w-[300px] h-10 flex-wrap text-xl font-thin tracking-wider hover:animate-scale-up-loop">
             Book an appointment
             </button>  
           </a>
@@ -85,9 +85,9 @@ export default async function Home() {
             </div>
           </div>
 
-          <div className="right_widget grid place-items-center md:place-items-end w-full xsmall:w-280px md:w-[450px] mx-auto xsmall:mx-0 sm:scale-75 xsmall:-ml-16 md:-mr-20">
-            <div className="my-4 space-x-6 items-center text-white">
-              <p className="inline-flex text-sm">
+          <div className="right_widget grid place-items-center text-sm md:place-items-end w-full xsmall:w-280px md:w-[450px] mx-auto xsmall:mx-0">
+            <div className="my-4 space-x-6 items-center">
+              <p className="inline-flex">
                 Hello, how can i help you?
               </p>
               <a 
@@ -99,27 +99,17 @@ export default async function Home() {
             </div>
 
             <iframe 
-              className="rounded-lg -mt-4 -mb-12"
+              className="rounded-lg -mt-10 -mb-4 bg-transparent scale-75"
               title="radio_bar"
               src="https://webnailsbucket.s3.amazonaws.com/common/radio.html" 
               width="280" 
               height="100"
-              style={{ border: 0, overflow: "hidden" }}
+              style={{ border: 0, overflow: "hidden"}}
               allowFullScreen={false}
               aria-hidden="false"
               tabIndex={0}
               >
             </iframe>
-            {/*
-            <Image src="https://webnailsbucket.s3.amazonaws.com/pasch/Music+bar.svg" 
-              alt="Icon" 
-              width={280} 
-              height={50} 
-              sizes="100%"
-              style={{
-                width: '100%',
-                height: 'auto',
-            }}/>*/}
           </div>
         </div>
         

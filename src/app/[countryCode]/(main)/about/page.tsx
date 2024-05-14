@@ -26,7 +26,7 @@ export default async function About() {
       </div>
       
       <div className="w-full max-w-6xl min-h-screen mx-auto grid place-content-start gap-4 xsmall:gap-6">
-        <h1 className="Services-title font-normal text-xl md:text-3xl uppercase mx-auto drop-shadow-xl">OUR COLLECTION</h1>
+        <h1 className="Services-title font-normal text-xl text-accent md:text-3xl uppercase mx-auto drop-shadow-xl">OUR COLLECTION</h1>
         <TabsComponent items={items} />
       </div>
     </div>

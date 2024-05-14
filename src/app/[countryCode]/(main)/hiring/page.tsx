@@ -29,7 +29,7 @@ export default async function Hiring() {
 
       <div className="w-full max-w-6xl min-h-screen mx-auto grid place-content-start gap-4 xsmall:gap-6">
       
-        <h1 className="Services-title font-normal text-xl md:text-3xl uppercase mx-auto drop-shadow-xl">Now hiring</h1>
+        <h1 className="Services-title font-normal text-xl text-accent md:text-3xl uppercase mx-auto drop-shadow-xl">Now hiring</h1>
         <TabsComponent items={items} />
 
         <div className="w-full px-4">

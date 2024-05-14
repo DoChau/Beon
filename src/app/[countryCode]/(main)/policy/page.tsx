@@ -23,7 +23,7 @@ export default async function Policy() {
       </div>
       <div className="w-full max-w-6xl min-h-screen mx-auto grid place-content-start gap-4 md:gap-6">
 
-        <h1 className="Services-title font-normal text-xl md:text-3xl uppercase mx-auto drop-shadow-xl">Policy</h1>
+        <h1 className="Services-title font-normal text-xl text-accent md:text-3xl uppercase mx-auto drop-shadow-xl">Policy</h1>
 
         <div className="w-full grid gap-6 xsmall:grid-cols-3 xsmall:gap-8 text-base px-6">
           <div className="w-full items-start justify-center space-y-4">
@@ -111,7 +111,7 @@ export default async function Policy() {
           </div>
         </div>
 
-        <h1 className="Services-title font-futura font-normal underline mx-auto">
+        <h1 className="Services-title font-futura font-normal text-accent underline mx-auto">
           Beon Nails staff
         </h1>
 

@@ -171,7 +171,7 @@ export default async function Footer() {
             <input
               type="text"
               id="search-navbar"
-              className="block w-full p-2 ps-2 text-sm bg-transparent border-0 border-b border-base-content"
+              className="block w-full p-2 ps-2 text-sm bg-transparent border-0 border-b border-base-content placeholder:text-base-content"
               placeholder="Enter your mail"
             />
           </div>

@@ -45,7 +45,7 @@ export default function CategoryTemplate({
       </div>
 
       <div className="w-full max-w-6xl min-h-screen mx-auto grid place-content-start gap-4 md:gap-6">
-        <h1 className="Services-title font-normal text-xl md:text-3xl uppercase mx-auto drop-shadow-xl">Our services</h1>
+        <h1 className="Services-title font-normal text-xl text-accent md:text-3xl uppercase mx-auto drop-shadow-xl">Our services</h1>
 
         <div className="CatList w-full grid grid-cols-4 gap-4 md:row-span-7 md:inline-flex px-4 md:space-x-4 md:mx-auto font-normal md:text-base md:justify-around">
           <a href="/categories/manicure"
@@ -61,7 +61,7 @@ export default function CategoryTemplate({
               hover:animate-scale-up bg-cover bg-no-repeat p-2 w-14 h-14
               ">
             </button>
-            <span className="hover:bg-theme-7 focus:bg-theme-6 active:bg-theme-6 rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Manicure</span>
+            <span className="hover:bg-accent rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Manicure</span>
           </a>
 
           <a href="/categories/pedicure"
@@ -77,7 +77,7 @@ export default function CategoryTemplate({
               hover:animate-scale-up bg-cover bg-no-repeat p-2 w-14 h-14
               ">
             </button>
-            <span className="hover:bg-theme-7 focus:bg-theme-6 active:bg-theme-6 rounded-full py-2 px-2 text-center text-theme-4 hover:text-theme-3">Pedicure</span>
+            <span className="hover:bg-accent rounded-full py-2 px-2 text-center text-theme-4 hover:text-theme-3">Pedicure</span>
           </a>
 
           <a 
@@ -94,7 +94,7 @@ export default function CategoryTemplate({
               hover:animate-scale-up bg-cover bg-no-repeat p-2 w-14 h-14
               ">
             </button>
-            <span className="hover:bg-theme-7 focus:bg-theme-6 active:bg-theme-6 rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Nail Enhancement</span>
+            <span className="hover:bg-accent rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Nail Enhancement</span>
           </a>
 
           <a href="/categories/chair-massage"
@@ -110,7 +110,7 @@ export default function CategoryTemplate({
               hover:animate-scale-up bg-cover bg-no-repeat p-2 w-14 h-14
               ">
             </button>
-            <span className="hover:bg-theme-7 focus:bg-theme-6 active:bg-theme-6 rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Chair Massage</span>
+            <span className="hover:bg-accent rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Chair Massage</span>
           </a>
 
           <a href="/categories/waxing"
@@ -126,7 +126,7 @@ export default function CategoryTemplate({
               hover:animate-scale-up bg-cover bg-no-repeat p-2 w-14 h-14
               ">
             </button>
-            <span className="hover:bg-theme-7 focus:bg-theme-6 active:bg-theme-6 rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Waxing</span>
+            <span className="hover:bg-accent rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Waxing</span>
           </a>
 
           <a href="/categories/prince-princess"
@@ -142,7 +142,7 @@ export default function CategoryTemplate({
               hover:animate-scale-up bg-cover bg-no-repeat p-2 w-14 h-14
               ">
             </button>
-            <span className="hover:bg-theme-7 focus:bg-theme-6 active:bg-theme-6 rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Prince/ Princess</span>
+            <span className="hover:bg-accent rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Prince/ Princess</span>
           </a>
 
           <a href="/categories/add-ons"
@@ -158,7 +158,7 @@ export default function CategoryTemplate({
               hover:animate-scale-up bg-cover bg-no-repeat p-2 w-14 h-14
               ">
             </button>
-            <span className="hover:bg-theme-7 focus:bg-theme-6 active:bg-theme-6 rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Add-ons</span>
+            <span className="hover:bg-accent rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Add-ons</span>
           </a>
         </div>
 
