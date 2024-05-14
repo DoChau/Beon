@@ -5,35 +5,35 @@
 @layer base{
   @font-face {
     font-family: 'Futura';
-    src: local('Futura'), url(https://webnailsbucket.s3.amazonaws.com/SFUFuturaBook.ttf) format('ttf');
+    src: local('Futura'), url(https://webnailsbucket.s3.amazonaws.com/fonts/SFUFuturaBook.ttf) format('ttf');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
     font-family: 'Futura';
-    src: local('Futura'), url(https://webnailsbucket.s3.amazonaws.com/SFUFuturaBold.ttf) format('ttf');
+    src: local('Futura'), url(https://webnailsbucket.s3.amazonaws.com/fonts/SFUFuturaBold.ttf) format('ttf');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
     font-family: 'Futura';
-    src: local('Futura'), url(https://webnailsbucket.s3.amazonaws.com/SFUFuturaLight.ttf) format('ttf');
+    src: local('Futura'), url(https://webnailsbucket.s3.amazonaws.com/fonts/SFUFuturaLight.ttf) format('ttf');
     font-weight: light;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
     font-family: 'Dutch';
-    src: local('Dutch'), url(https://webnailsbucket.s3.amazonaws.com/dutcheb.ttf) format('ttf');
+    src: local('Dutch'), url(https://webnailsbucket.s3.amazonaws.com/fonts/dutcheb.ttf) format('ttf');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
     font-family: 'Coco';
-    src: local('Coco'), url(https://webnailsbucket.s3.amazonaws.com/cocogoose_trial.otf) format('otf');
+    src: local('Coco'), url(https://webnailsbucket.s3.amazonaws.com/fonts/cocogoose_trial.otf) format('otf');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
