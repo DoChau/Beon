@@ -8,7 +8,7 @@ import RefinementList from "@modules/store/components/refinement-list"
 import { SortOptions } from "@modules/store/components/refinement-list/sort-products"
 import PaginatedProducts from "@modules/store/templates/paginated-products"
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
-
+import CatMenu from "@modules/layout/components/categories-menu"
 import Image from "next/image"
 
 export default function CategoryTemplate({
@@ -48,118 +48,7 @@ export default function CategoryTemplate({
         <h1 className="Services-title font-normal text-xl text-accent md:text-3xl uppercase mx-auto drop-shadow-xl">Our services</h1>
 
         <div className="CatList w-full grid grid-cols-4 gap-4 md:row-span-7 md:inline-flex px-4 md:space-x-4 md:mx-auto font-normal md:text-base md:justify-around">
-          <a href="/categories/manicure"
-            title="service-link"
-            rel="noopener noreferrer"
-            className="CatItem text-theme-4 flex flex-col items-center justify-center space-y-4"
-            >
-            <button 
-              title="service-button"
-              className="
-              bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/icon-Manicure.svg')] 
-              hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/holmdel/icon-Manicure-1.svg')] 
-              hover:animate-scale-up bg-cover bg-no-repeat p-2 w-14 h-14
-              ">
-            </button>
-            <span className="hover:bg-accent rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Manicure</span>
-          </a>
-
-          <a href="/categories/pedicure"
-            title="service-link"
-            rel="noopener noreferrer"
-            className="CatItem text-theme-4 flex flex-col items-center justify-center space-y-4"
-            >
-            <button 
-              title="service-button"
-              className="
-              bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/icon-Pedicure.svg')] 
-              hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/holmdel/icon-Pedicure-1.svg')] 
-              hover:animate-scale-up bg-cover bg-no-repeat p-2 w-14 h-14
-              ">
-            </button>
-            <span className="hover:bg-accent rounded-full py-2 px-2 text-center text-theme-4 hover:text-theme-3">Pedicure</span>
-          </a>
-
-          <a 
-            href="/categories/nail-enhancement"
-            title="service-link"
-            rel="noopener noreferrer"
-            className="CatItem text-theme-4 flex flex-col items-center justify-center space-y-4"
-            >
-            <button 
-              title="service-button"
-              className="
-              bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/icon-nail-Enhancement.svg')] 
-              hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/holmdel/icon-nail-Enhancement-1.svg')] 
-              hover:animate-scale-up bg-cover bg-no-repeat p-2 w-14 h-14
-              ">
-            </button>
-            <span className="hover:bg-accent rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Nail Enhancement</span>
-          </a>
-
-          <a href="/categories/chair-massage"
-            title="service-link"
-            rel="noopener noreferrer"
-            className="CatItem text-theme-4 flex flex-col items-center justify-center space-y-4"
-            >
-            <button 
-              title="service-button"
-              className="
-              bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/icon-chair.svg')] 
-              hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/holmdel/icon-chair-1.svg')] 
-              hover:animate-scale-up bg-cover bg-no-repeat p-2 w-14 h-14
-              ">
-            </button>
-            <span className="hover:bg-accent rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Chair Massage</span>
-          </a>
-
-          <a href="/categories/waxing"
-            title="service-link"
-            rel="noopener noreferrer"
-            className="CatItem text-theme-4 flex flex-col items-center justify-center space-y-4"
-            >
-            <button 
-              title="service-button"
-              className="
-              bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/icon-Waxing.svg')] 
-              hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/holmdel/icon-Waxing-1.svg')] 
-              hover:animate-scale-up bg-cover bg-no-repeat p-2 w-14 h-14
-              ">
-            </button>
-            <span className="hover:bg-accent rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Waxing</span>
-          </a>
-
-          <a href="/categories/prince-princess"
-            title="service-link"
-            rel="noopener noreferrer"
-            className="CatItem col-span-2 text-theme-4 flex flex-col items-center justify-center space-y-4"
-            >
-            <button 
-              title="service-button"
-              className="
-              bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/icon-Kids-Services.svg')] 
-              hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/holmdel/icon-Kids-Services-1.svg')] 
-              hover:animate-scale-up bg-cover bg-no-repeat p-2 w-14 h-14
-              ">
-            </button>
-            <span className="hover:bg-accent rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Prince/ Princess</span>
-          </a>
-
-          <a href="/categories/add-ons"
-            title="service-link"
-            rel="noopener noreferrer"
-            className="CatItem text-theme-4 flex flex-col items-center justify-center space-y-4"
-            >
-            <button 
-              title="service-button"
-              className="
-              bg-[url('https://webnailsbucket.s3.amazonaws.com/pasch/icon-add-ons.svg')] 
-              hover:bg-[url('https://webnailsbucket.s3.amazonaws.com/holmdel/icon-add-ons-1.svg')] 
-              hover:animate-scale-up bg-cover bg-no-repeat p-2 w-14 h-14
-              ">
-            </button>
-            <span className="hover:bg-accent rounded-full py-2 px-2 text-center  text-theme-4 hover:text-theme-3">Add-ons</span>
-          </a>
+          <CatMenu/>
         </div>
 
 
