@@ -27,11 +27,11 @@ export default async function News() {
         <div className="w-full max-w-6xl min-h-screen mx-auto grid place-content-start justify-center overflow-hidden md:gap-6">
             <h1 className="Services-title font-normal text-xl text-accent md:text-3xl uppercase mx-auto drop-shadow-xl">Booking</h1>
             <iframe 
-              className="mb-4 bg-[url('https://webnailsbucket.s3.amazonaws.com/beon/bouncing-circles.svg')] bg-center bg-[length:50px_50px] bg-no-repeat"
+              className="mb-4 bg-[url('https://webnailsbucket.s3.amazonaws.com/beon/bouncing-circles.svg')] bg-center bg-[length:50px_50px] bg-no-repeat mask mask-squircle"
               title="booking"
               src="https://plugin.mysalononline.com/External/BookingPlugin/?guid=e907fce7-9cbb-44e8-8db8-bc926cf4f703" 
-              width="600px"
-              height="600px"
+              width="430px"
+              height="460px"
               style={{ border: 0 }}
               allowFullScreen={false}
               aria-hidden="false"
