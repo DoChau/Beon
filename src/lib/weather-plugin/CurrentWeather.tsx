@@ -16,13 +16,16 @@ export default function CurrentWeather({ data, city }: CurrentWeatherProps) {
     <>
     <div className="weather_widget inline-flex items-center justify-between font-futura text-xs space-x-4">
       <div className="city">
-        <ul className="text-center">
-          <li> <strong>WALL TOWNSHIP</strong></li>
-          <li> 
-            <span><Clock initial={initial} timezone={city.timezone}/></span> 
-            <span>{convertToDate(city.timezone, data.dt, "long")}</span>
-          </li>
-        </ul>
+        <div className="text-center">
+          <p> <strong>WALL TOWNSHIP</strong></p>
+          <p className="inline-flex"> 
+            <Clock initial={initial} timezone={city.timezone}/> 
+          </p>
+          <p className="inline-flex w-2"></p>
+          <p className="inline-flex"> 
+            {convertToDate(city.timezone, data.dt, "long")}
+          </p>
+        </div>
       </div>
       <div>
         <IconComponent

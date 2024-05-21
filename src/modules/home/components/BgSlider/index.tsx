@@ -1,53 +1,62 @@
-"use client"
 
 import React from 'react';
 import Image from 'next/image';
-import { Fade } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
-import { relative } from 'path';
-
-const BgSlider = () => {
-  const properties = {
-    duration: 5000,
-    autoplay: true,
-    transitionDuration: 2000,
-    arrows: false,
-    infinite: true,
-    easing: "ease",
-  }
-
-  const fadeImages = [
+let size = 8
+const Images = [
     {
-      url: 'https://webnailsbucket.s3.amazonaws.com/beon/bg/bg1u.jpeg',
+      url: 'https://webnailsbucket.s3.amazonaws.com/beon/bggrid/3/Img+(1).jpg',
     },
     {
-      url: 'https://webnailsbucket.s3.amazonaws.com/beon/bg/bg2u.jpeg',
+      url: 'https://webnailsbucket.s3.amazonaws.com/beon/bggrid/3/Img+(2).jpg',
     },
     {
-      url: 'https://webnailsbucket.s3.amazonaws.com/beon/bg/bg3u.jpeg',
+      url: 'https://webnailsbucket.s3.amazonaws.com/beon/bggrid/3/Img+(3).jpg',
     },
     {
-      url: 'https://webnailsbucket.s3.amazonaws.com/beon/bg/bg4u.jpeg',
+      url: 'https://webnailsbucket.s3.amazonaws.com/beon/bggrid/3/Img+(4).jpg',
+    },
+    {
+      url: 'https://webnailsbucket.s3.amazonaws.com/beon/bggrid/3/Img+(5).jpg',
+    },
+    {
+      url: 'https://webnailsbucket.s3.amazonaws.com/beon/bggrid/3/Img+(6).jpg',
+    },
+    {
+      url: 'https://webnailsbucket.s3.amazonaws.com/beon/bggrid/3/Img+(7).jpg',
+    },
+    {
+      url: 'https://webnailsbucket.s3.amazonaws.com/beon/bggrid/3/Img+(8).jpg',
+    },
+    {
+      url: 'https://webnailsbucket.s3.amazonaws.com/beon/bggrid/3/Img+(9).jpg',
     },
   ];
+
+function createGrid() {
+	// only want unique cards
+	let cards = new Set<any>()
+	while (cards.size < size) {
+		// pick random Images
+		const randomIndex = Math.floor(Math.random() * Images.length)
+		cards.add(Images[randomIndex])
+	}
+}
+
+const BgGrid = () => {
+  let grid = createGrid()
+
   return (
-    <div className="slide-container">
-      <Fade {...properties}>
-        {fadeImages.map((fadeImage, index) => (
-          <div key={index}>
-            <img 
-              className="lazy"
-              style={{ 
-                width: '100%', 
-                height: '2000px', 
-                objectFit: 'cover',
-                objectPosition: 'right bottom'
-                }} 
-              src={fadeImage.url} />
-          </div>
-        ))}
-      </Fade>
+    <>
+    <div className="cards">
+      grid.forEach(card) {
+        <button
+          className="bg-[url(${card})]"
+        >
+          picture
+        </button>
+      }
     </div>
+    </>
   )
 }
-export default BgSlider
+export default BgGrid
