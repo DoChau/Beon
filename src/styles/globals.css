@@ -5,21 +5,21 @@
 @layer base{
   @font-face {
     font-family: 'Futura';
-    src: local('Futura'), url(https://webnailsbucket.s3.amazonaws.com/fonts/SFUFuturaBook.ttf) format('ttf');
+    src: url(https://webnailsbucket.s3.amazonaws.com/fonts/SFUFuturaBook.ttf) format('ttf');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
     font-family: 'Futura';
-    src: local('Futura'), url(https://webnailsbucket.s3.amazonaws.com/fonts/SFUFuturaBold.ttf) format('ttf');
+    src: url(https://webnailsbucket.s3.amazonaws.com/fonts/SFUFuturaBold.ttf) format('ttf');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
     font-family: 'Futura';
-    src: local('Futura'), url(https://webnailsbucket.s3.amazonaws.com/fonts/SFUFuturaLight.ttf) format('ttf');
+    src: url(https://webnailsbucket.s3.amazonaws.com/fonts/SFUFuturaLight.ttf) format('ttf');
     font-weight: light;
     font-style: normal;
     font-display: swap;
