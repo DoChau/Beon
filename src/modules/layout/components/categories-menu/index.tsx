@@ -32,7 +32,7 @@ const CatMenu = () => {
           }`}>
         </button>
         <span 
-          className={`hover:bg-accent hover:text-accent-content rounded-full py-2 px-4 text-center
+          className={`hover:bg-accent hover:text-accent-content rounded-lg bg-opacity-80 px-4 text-center
           ${pathname === "/us/categories/manicure" 
             ? "bg-primary text-primary-content" 
             : "text-secondary-content "
@@ -57,7 +57,7 @@ const CatMenu = () => {
           
         </button>
         <span 
-          className={`hover:bg-accent hover:text-accent-content rounded-full py-2 px-4 text-center
+          className={`hover:bg-accent hover:text-accent-content rounded-lg bg-opacity-80 px-4 text-center
           ${pathname === "/us/categories/pedicure" 
             ? "bg-primary text-primary-content" 
             : "text-secondary-content "
@@ -81,7 +81,7 @@ const CatMenu = () => {
           }`}>
         </button>
         <span 
-          className={`hover:bg-accent hover:text-accent-content rounded-full py-2 px-4 text-center
+          className={`hover:bg-accent hover:text-accent-content rounded-lg bg-opacity-80 px-4 text-center
           ${pathname === "/us/categories/nail-enhancement" 
             ? "bg-primary text-primary-content" 
             : "text-secondary-content "
@@ -105,7 +105,7 @@ const CatMenu = () => {
           }`}>
         </button>
         <span 
-          className={`hover:bg-accent hover:text-accent-content rounded-full py-2 px-4 text-center
+          className={`hover:bg-accent hover:text-accent-content rounded-lg bg-opacity-80 px-4 text-center
           ${pathname === "/us/categories/waxing" 
             ? "bg-primary text-primary-content" 
             : "text-secondary-content "
@@ -130,7 +130,7 @@ const CatMenu = () => {
           
         </button>
         <span 
-          className={`hover:bg-accent hover:text-accent-content rounded-full py-2 px-4 text-center
+          className={`hover:bg-accent hover:text-accent-content rounded-lg bg-opacity-80 px-4 text-center
           ${pathname === "/us/categories/prince-princess" 
             ? "bg-primary text-primary-content" 
             : "text-secondary-content "
@@ -154,7 +154,7 @@ const CatMenu = () => {
           }`}>
         </button>
         <span 
-          className={`hover:bg-accent hover:text-accent-content rounded-full py-2 px-4 text-center
+          className={`hover:bg-accent hover:text-accent-content rounded-lg bg-opacity-80 px-4 text-center
           ${pathname === "/us/categories/add-ons" 
             ? "bg-primary text-primary-content" 
             : "text-secondary-content "

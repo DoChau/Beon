@@ -193,7 +193,7 @@ export default function Nav() {
           <div className="sticky top-0 w-full h-44 mx-auto bg-secondary text-base-content place-content-start sm:place-content-center z-50 group duration-200">
             <header className="w-full relative flex flex-wrap">
               <nav className="w-full mx-auto max-w-6xl grid">
-                <div className="Booking hidden top-[10px] right-[-30px] sm:right-[0px] xl:top-[10px] xl:right-[10%] scale-50 opacity-80 xl:scale-75 w-52 h-52 z-50">
+                <div className="Booking fixed bottom-[-40px] right-[-40px] sm:bottom-0 sm:right-0 scale-50 sm:scale-[0.7] opacity-90 xl:opacity-100 w-52 h-52 z-50">
                   <Booking_button/>
                 </div>
 

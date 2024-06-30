@@ -1,4 +1,5 @@
-const path = require("path")
+const plugin = require('tailwindcss/plugin');
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   daisyui: {
