@@ -59,6 +59,34 @@ export default async function Home() {
   return (
     <>
       <div className="grid max-w-6xl w-full h-screen -mb-12 sm:-mb-16 p-5 mx-auto items-center overflow-hidden font-futura text-primary-content z-0">
+        <div className="popup-poster absolute top-0 left-0 w-[100vw] h-[100vh] flex flex-col bg-[rgba(32,35,97)] place-content-center items-center overflow-hidden animate-popupMove z-50">
+          <div className="flex w-5/6 md:w-[400px] content-center">
+            <Image
+              src="https://webnailsbucket.s3.amazonaws.com/common/popup/4ofJuly-beon.png"
+              alt="popup"
+              width={600} 
+              height={600} 
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+            />
+          </div>
+          
+          <div className="inline-flex w-[1400px] h-60 items-center justify-evenly">
+            <Image
+              className="w-1/2 h-20 items-center animate-moveXline1"
+              src="https://webnailsbucket.s3.amazonaws.com/common/popup/4ofJulytext.png"
+              alt="popup"
+              width={1400} 
+              height={19} 
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+            />
+          </div>
+        </div>
 
         <div className="logocontent grid items-center mx-auto justify-items-center mb-10 z-10">
 

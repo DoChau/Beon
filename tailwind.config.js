@@ -147,6 +147,15 @@ module.exports = {
           "0%": { transform: "rotate(0deg)" },
           "100%": { transform: "rotate(360deg)" },
         },
+        popupMove: {
+          "0%": { transform:  "translateX(0%)"},
+          "80%": { transform:  "translateX(0%)"},
+          "100%": { transform: "translateX(100%)"},
+        },
+        moveXline1: {
+          "0%": { transform:  "translateX(-20%)"},
+          "100%": { transform: "translateX(20%)"},
+        },
         "fade-in-right": {
           "0%": {
             opacity: "0",
@@ -228,6 +237,9 @@ module.exports = {
         "slide-in": "slide-in 1.2s cubic-bezier(.41,.73,.51,1.02)",
         'spin-slow': 'spin 10s linear infinite',
         'ping-slow': 'ping 10s linear infinite',
+        'moveXline1': 'moveXline1 10s ease infinite',
+        'moveXline2': 'moveXline2 5s linear infinite',
+        'popupMove': 'popupMove 5s linear forwards',
         'pulse-slow': 'pulse 10s linear infinite',
         'scale-up': 'scaleUp 0.5s ease forwards',
         'scale-up-loop': 'scaleUp 1s infinite',
