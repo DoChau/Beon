@@ -16,7 +16,7 @@ export default function Nav() {
     case "/us":
       return (
         <>
-          <div className="sticky top-0 mx-auto w-full bg-transparent h-12 sm:h-16 place-content-start sm:place-content-center z-50 group duration-200 text-primary border-primary">
+          <div className="sticky top-0 mx-auto w-full bg-transparent h-12 sm:h-16 place-content-start sm:place-content-center z-50 group duration-200 text-primary border-gray-500">
             <header className="relative w-full flex flex-wrap">
               <nav className="m-auto max-w-6xl w-full sm:px-5 justify-self-center">
                 <div className="mx-auto flex flex-wrap items-center justify-between">
@@ -28,7 +28,7 @@ export default function Nav() {
                       <input
                         type="text"
                         id="search-navbar"
-                        className="block w-full p-2 ps-2 text-sm rounded-lg bg-transparent border placeholder:text-primary border-primary"
+                        className="block w-full p-2 ps-2 text-sm rounded-lg bg-transparent border placeholder:text-gray-500 border-gray-500"
                         placeholder="Search..."
                       />
                     </div>
@@ -97,7 +97,7 @@ export default function Nav() {
                     </ul>
                   </div>
 
-                  <div className="flex-row inline-flex w-screen sm:w-60 sm:order-2 order-1 place-items-center justify-around items-end">
+                  <div className="flex-row inline-flex w-screen sm:w-60 sm:order-2 order-1 place-items-center justify-around items-end text-gray-500">
                     <button
                       type="button"
                       className="sm:hidden rounded-lg text-sm p-2.5 me-1"
@@ -170,7 +170,7 @@ export default function Nav() {
                       <input
                         type="text"
                         id="search-navbar"
-                        className="block w-full p-2 ps-2 text-sm bg-transparent border-0 border-b placeholder:text-primary border-primary"
+                        className="block w-full p-2 ps-2 text-sm bg-transparent border-b placeholder:text-gray-500 border-gray-500"
                         placeholder="Search..."
                       />
                     </div>

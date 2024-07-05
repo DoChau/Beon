@@ -201,11 +201,13 @@ export default async function Home() {
           <BgSlider/>
         </div>
         
+        
         <div className="w-full h-screen absolute top-0 z-0">
           <Image src="https://webnailsbucket.s3.amazonaws.com/beon/home-bg/Beon+Web+redesign+2024+R2-09.png" 
             alt="bg"
             layout="fill"
             objectFit="cover"
+            objectPosition="right bottom"
             />
         </div>
       </div>
