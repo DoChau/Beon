@@ -12,7 +12,7 @@ export default async function About() {
     return (
     <>        
 
-    <div className="w-full bg-base-100 text-base-content grid gap-4 xsmall:gap-6 font-futura font-thin text-sm">
+    <div className="w-full bg-gray-300 text-black grid gap-4 xsmall:gap-6 font-futura font-thin text-sm">
       <div className="Banner w-full h-fit xl:h-[300px] overflow-hidden mx-auto">
         <Image src="https://webnailsbucket.s3.amazonaws.com/beon/banner_.jpg" 
           alt="banner" 
@@ -26,7 +26,7 @@ export default async function About() {
       </div>
       
       <div className="w-full max-w-6xl min-h-screen mx-auto grid place-content-start gap-4 xsmall:gap-6">
-        <h1 className="Services-title font-normal text-xl text-accent md:text-3xl uppercase mx-auto drop-shadow-xl">OUR COLLECTION</h1>
+        <h1 className="Services-title font-normal text-xl text-black md:text-2xl uppercase mx-auto drop-shadow-xl">OUR COLLECTION</h1>
         <TabsComponent items={items} />
       </div>
     </div>

@@ -7,10 +7,10 @@ module.exports = {
       {
         cupcake: {
             ...require("daisyui/src/theming/themes")["cupcake"],
-            'primary' : 'rgb(238, 71, 213)',
+            'primary' : 'rgb(159, 123, 80)',
             'primary-content' : 'white',
             'secondary' : 'white',
-            'accent'  : '#e28a6f',
+            'accent'  : 'rgb(242,196,148)',
             'accent-content'  : '#fff',
             'secondary-content' : 'rgb(237, 77, 51)',
             'base-100': "rgb(173, 194, 199)",
@@ -227,6 +227,7 @@ module.exports = {
         "fade-in-right":
           "fade-in-right 0.3s cubic-bezier(0.5, 0, 0.5, 1) forwards",
         "fade-in-top": "fade-in-top 0.2s cubic-bezier(0.5, 0, 0.5, 1) forwards",
+        "fade-in-top-slow": "fade-in-top 10s cubic-bezier(0.5, 0, 0.5, 1) forwards",
         "fade-out-top":
           "fade-out-top 0.2s cubic-bezier(0.5, 0, 0.5, 1) forwards",
         "accordion-open":

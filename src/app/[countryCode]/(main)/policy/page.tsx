@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default async function Policy() {
     return (
     <>
-    <div className="w-full bg-base-100 text-base-content grid gap-4 pb-6 xsmall:gap-6 font-futuraext-xs">
+    <div className="w-full bg-gray-300 text-black grid gap-4 pb-6 xsmall:gap-6 font-futuraext-xs">
       <div className="Banner w-full h-fit xl:h-[300px] object-bottom overflow-hidden mx-auto">
           <Image src="https://webnailsbucket.s3.amazonaws.com/beon/news-banner2.png" 
           alt="banner" 
@@ -23,7 +23,7 @@ export default async function Policy() {
       </div>
       <div className="w-full max-w-6xl min-h-screen mx-auto grid place-content-start gap-4 md:gap-6">
 
-        <h1 className="Services-title font-normal text-xl text-accent md:text-3xl uppercase mx-auto drop-shadow-xl">Policy</h1>
+        <h1 className="Services-title font-normal text-xl text-black md:text-2xl uppercase mx-auto drop-shadow-xl">Policy</h1>
 
         <div className="w-full grid gap-6 xsmall:grid-cols-3 xsmall:gap-8 text-base px-6">
           <div className="w-full items-start justify-center space-y-4">

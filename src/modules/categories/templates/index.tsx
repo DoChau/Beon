@@ -31,7 +31,7 @@ export default function CategoryTemplate({
 
   return (
     <>
-    <div className="w-full bg-base-100 text-base-content grid gap-4 xsmall:gap-6 font-futura font-thin text-sm">
+    <div className="w-full bg-gray-300 text-black grid gap-4 xsmall:gap-6 font-futura font-thin text-sm">
       <div className="Banner w-full h-fit xl:h-[300px] object-bottom overflow-hidden mx-auto">
             <Image src="https://webnailsbucket.s3.amazonaws.com/beon/services-banner2.png" 
             alt="banner" 
@@ -45,7 +45,7 @@ export default function CategoryTemplate({
       </div>
 
       <div className="w-full max-w-6xl min-h-screen mx-auto grid place-content-start gap-4 md:gap-6">
-        <h1 className="Services-title font-normal text-xl text-accent md:text-3xl uppercase mx-auto drop-shadow-xl">Our services</h1>
+        <h1 className="Services-title font-normal text-xl text-black md:text-2xl uppercase mx-auto drop-shadow-xl">Our services</h1>
 
         <div className="CatList w-full grid grid-cols-4 gap-4 md:row-span-7 md:inline-flex px-4 md:space-x-4 md:mx-auto font-normal md:text-base md:justify-around">
           <CatMenu/>

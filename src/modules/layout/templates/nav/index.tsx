@@ -16,12 +16,12 @@ export default function Nav() {
     case "/us":
       return (
         <>
-          <div className="sticky top-0 mx-auto w-full bg-transparent h-12 sm:h-16 place-content-start sm:place-content-center z-50 group duration-200 text-primary border-gray-500">
+          <div className="sticky top-0 mx-auto w-full bg-transparent h-12 sm:h-16 place-content-start sm:place-content-center z-50 group duration-200 text-gray-500 border-gray-500">
             <header className="relative w-full flex flex-wrap">
               <nav className="m-auto max-w-6xl w-full sm:px-5 justify-self-center">
                 <div className="mx-auto flex flex-wrap items-center justify-between">
                   <div
-                    className="items-center justify-between hidden px-2 w-full h-screen sm:h-fit bg-primary sm:bg-transparent sm:flex sm:w-auto order-2 sm:order-1"
+                    className="items-center justify-between hidden px-2 w-full h-screen sm:h-fit bg-white sm:bg-transparent sm:flex sm:w-auto order-2 sm:order-1"
                     id="search-navbar"
                   >
                     <div className="relative my-4 sm:hidden">
@@ -36,7 +36,7 @@ export default function Nav() {
                       <SocialLink/>
                     </div>
 
-                    <ul className="flex flex-col p-4 sm:p-0 rounded-lg bg-transparent font-futura font-normal uppercase text-base sm:space-x-6 rtl:space-x-reverse sm:flex-row">
+                    <ul className="flex flex-col p-4 sm:p-0 rounded-lg bg-transparent text-pink-600 font-futura font-normal uppercase text-base sm:space-x-6 rtl:space-x-reverse sm:flex-row">
                       <li>
                         <a
                           href="/"

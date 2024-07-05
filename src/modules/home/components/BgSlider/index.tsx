@@ -36,14 +36,17 @@ const BgSlider = () => {
       <Fade {...properties}>
         {fadeImages.map((fadeImage, index) => (
           <div key={index}>
-            <img 
-              style={{ 
-                width: '100%', 
-                height: 'auto',
-                objectFit: 'cover',
-                objectPosition: 'right bottom'
-                }} 
-              src={fadeImage.url} />
+            <Image 
+            src={fadeImage.url}
+            alt="slide"
+            style={{
+              width: '100%',
+              height: '100vh',
+            }}
+            width={1440}
+            height={850}
+            />
+            
           </div>
         ))}
       </Fade>

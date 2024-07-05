@@ -35,7 +35,7 @@ const CatMenu = () => {
           className={`hover:bg-accent hover:text-accent-content rounded-lg bg-opacity-80 px-4 text-center
           ${pathname === "/us/categories/manicure" 
             ? "bg-primary text-primary-content" 
-            : "text-secondary-content "
+            : "text-black"
           }`}>
           Manicure
         </span>
@@ -60,7 +60,7 @@ const CatMenu = () => {
           className={`hover:bg-accent hover:text-accent-content rounded-lg bg-opacity-80 px-4 text-center
           ${pathname === "/us/categories/pedicure" 
             ? "bg-primary text-primary-content" 
-            : "text-secondary-content "
+            : "text-black"
           }`}>
           Pedicure
         </span>
@@ -84,7 +84,7 @@ const CatMenu = () => {
           className={`hover:bg-accent hover:text-accent-content rounded-lg bg-opacity-80 px-4 text-center
           ${pathname === "/us/categories/nail-enhancement" 
             ? "bg-primary text-primary-content" 
-            : "text-secondary-content "
+            : "text-black"
           }`}>
           Nail Enhancement
         </span>
@@ -108,7 +108,7 @@ const CatMenu = () => {
           className={`hover:bg-accent hover:text-accent-content rounded-lg bg-opacity-80 px-4 text-center
           ${pathname === "/us/categories/waxing" 
             ? "bg-primary text-primary-content" 
-            : "text-secondary-content "
+            : "text-black"
           }`}>
           Waxing
         </span>
@@ -133,7 +133,7 @@ const CatMenu = () => {
           className={`hover:bg-accent hover:text-accent-content rounded-lg bg-opacity-80 px-4 text-center
           ${pathname === "/us/categories/prince-princess" 
             ? "bg-primary text-primary-content" 
-            : "text-secondary-content "
+            : "text-black"
           }`}>
           Prince/ Princess
         </span>
@@ -157,7 +157,7 @@ const CatMenu = () => {
           className={`hover:bg-accent hover:text-accent-content rounded-lg bg-opacity-80 px-4 text-center
           ${pathname === "/us/categories/add-ons" 
             ? "bg-primary text-primary-content" 
-            : "text-secondary-content "
+            : "text-black"
           }`}>
           Add-ons
         </span>

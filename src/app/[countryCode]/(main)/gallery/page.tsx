@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default async function Gallery() {
     return (
     <>
-      <div className="w-full bg-base-100 text-base-content grid gap-4 xsmall:gap-6 font-futura">
+      <div className="w-full bg-gray-300 text-black grid gap-4 xsmall:gap-6 font-futura">
         <div className="Banner w-full h-fit xl:h-[300px] object-bottom overflow-hidden mx-auto">
           <Image src="https://webnailsbucket.s3.amazonaws.com/pasch/news-banner.png" 
           alt="banner" 
@@ -23,9 +23,9 @@ export default async function Gallery() {
         </div>
 
         <div className="w-full max-w-6xl min-h-screen mx-auto grid place-content-start gap-4 md:gap-6">
-          <h1 className="Services-title font-normal text-xl text-accent md:text-3xl uppercase drop-shadow-xl">Beon Nails space</h1>
+          <h1 className="Services-title font-normal text-xl text-black md:text-2xl uppercase drop-shadow-xl">Beon Nails space</h1>
       
-          <h1 className="Services-title font-normal text-xl text-accent md:text-3xl uppercase drop-shadow-xl">Gallery</h1>
+          <h1 className="Services-title font-normal text-xl text-black md:text-2xl uppercase drop-shadow-xl">Gallery</h1>
 
         </div>
       
