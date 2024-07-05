@@ -7,7 +7,7 @@ module.exports = {
       {
         cupcake: {
             ...require("daisyui/src/theming/themes")["cupcake"],
-            'primary' : 'rgb(127, 91, 92)',
+            'primary' : 'rgb(238, 71, 213)',
             'primary-content' : 'white',
             'secondary' : 'white',
             'accent'  : '#e28a6f',

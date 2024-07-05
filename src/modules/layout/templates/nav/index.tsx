@@ -16,7 +16,7 @@ export default function Nav() {
     case "/us":
       return (
         <>
-          <div className="sticky top-0 mx-auto w-full bg-primary bg-opacity-75 h-12 sm:h-16 place-content-start sm:place-content-center z-50 group duration-200 text-primary-content border-primary-content">
+          <div className="sticky top-0 mx-auto w-full bg-transparent h-12 sm:h-16 place-content-start sm:place-content-center z-50 group duration-200 text-primary border-primary">
             <header className="relative w-full flex flex-wrap">
               <nav className="m-auto max-w-6xl w-full sm:px-5 justify-self-center">
                 <div className="mx-auto flex flex-wrap items-center justify-between">
@@ -28,7 +28,7 @@ export default function Nav() {
                       <input
                         type="text"
                         id="search-navbar"
-                        className="block w-full p-2 ps-2 text-sm rounded-lg bg-transparent border placeholder:text-primary-content border-primary-content"
+                        className="block w-full p-2 ps-2 text-sm rounded-lg bg-transparent border placeholder:text-primary border-primary"
                         placeholder="Search..."
                       />
                     </div>
@@ -40,7 +40,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/"
-                          className="block py-2 px-3 sm:hover:text-primary-content hover:animate-scale-up  sm:p-0 "
+                          className="block py-2 px-3 sm:hover:text-primary hover:animate-scale-up  sm:p-0 "
                           aria-current="page"
                         >
                           Home
@@ -49,7 +49,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/about"
-                          className="block py-2 px-3  sm:hover:text-primary-content  hover:animate-scale-up sm:p-0 "
+                          className="block py-2 px-3  sm:hover:text-primary  hover:animate-scale-up sm:p-0 "
                         >
                           About
                         </a>
@@ -57,7 +57,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/categories/manicure"
-                          className="block py-2 px-3   sm:hover:text-primary-content  hover:animate-scale-up sm:p-0 "
+                          className="block py-2 px-3   sm:hover:text-primary  hover:animate-scale-up sm:p-0 "
                         >
                           Services
                         </a>
@@ -65,7 +65,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/policy"
-                          className="block py-2 px-3   sm:hover:text-primary-content  hover:animate-scale-up sm:p-0 "
+                          className="block py-2 px-3   sm:hover:text-primary  hover:animate-scale-up sm:p-0 "
                         >
                           Policy
                         </a>
@@ -73,7 +73,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/gallery"
-                          className="block py-2 px-3   sm:hover:text-primary-content  hover:animate-scale-up sm:p-0 "
+                          className="block py-2 px-3   sm:hover:text-primary  hover:animate-scale-up sm:p-0 "
                         >
                           Gallery
                         </a>
@@ -81,7 +81,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/news"
-                          className="block py-2 px-3   sm:hover:text-primary-content  hover:animate-scale-up sm:p-0 "
+                          className="block py-2 px-3   sm:hover:text-primary  hover:animate-scale-up sm:p-0 "
                         >
                           News
                         </a>
@@ -89,7 +89,7 @@ export default function Nav() {
                       <li>
                         <a
                           href="/hiring"
-                          className="block py-2 px-3   sm:hover:text-primary-content  hover:animate-scale-up sm:p-0 "
+                          className="block py-2 px-3   sm:hover:text-primary  hover:animate-scale-up sm:p-0 "
                         >
                           Hiring
                         </a>
@@ -170,7 +170,7 @@ export default function Nav() {
                       <input
                         type="text"
                         id="search-navbar"
-                        className="block w-full p-2 ps-2 text-sm bg-transparent border-0 border-b placeholder:text-primary-content border-primary-content"
+                        className="block w-full p-2 ps-2 text-sm bg-transparent border-0 border-b placeholder:text-primary border-primary"
                         placeholder="Search..."
                       />
                     </div>

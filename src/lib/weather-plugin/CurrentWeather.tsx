@@ -26,7 +26,7 @@ export default function CurrentWeather({ data, city }: CurrentWeatherProps) {
           </div>
         </div>
       </div>
-      <div>
+      <div className="rounded-full bg-white">
         <IconComponent
           weatherCode={data.weather[0].id}
           x={data.sys.pod}

@@ -58,35 +58,8 @@ export default async function Home() {
 
   return (
     <>
-      <div className="grid max-w-6xl w-full h-screen -mb-12 sm:-mb-16 p-5 mx-auto items-center overflow-hidden font-futura text-primary-content z-0">
-        <div className="popup-poster absolute top-0 left-0 w-[100vw] h-[100vh] flex flex-col bg-[rgba(32,35,97)] place-content-center items-center overflow-hidden animate-popupMove z-50">
-          <div className="flex w-5/6 md:w-[400px] content-center">
-            <Image
-              src="https://webnailsbucket.s3.amazonaws.com/common/popup/4ofJuly-beon.png"
-              alt="popup"
-              width={600} 
-              height={600} 
-              style={{
-                width: "100%",
-                height: "auto",
-              }}
-            />
-          </div>
-          
-          <div className="inline-flex w-[1400px] h-60 items-center justify-evenly">
-            <Image
-              className="w-1/2 h-20 items-center animate-moveXline1"
-              src="https://webnailsbucket.s3.amazonaws.com/common/popup/4ofJulytext.png"
-              alt="popup"
-              width={1400} 
-              height={19} 
-              style={{
-                width: "100%",
-                height: "auto",
-              }}
-            />
-          </div>
-        </div>
+      <div className="grid max-w-6xl w-full h-screen -mb-12 sm:-mb-16 p-5 mx-auto items-center overflow-hidden font-futura text-gray-800 z-0">
+        
 
         <div className="logocontent grid items-center mx-auto justify-items-center mb-10 z-10">
 
@@ -99,8 +72,8 @@ export default async function Home() {
             target="_blank"
             rel="noopener noreferrer"
             >
-            <button className="uppercase bg-primary mt-10 rounded-xl w-[300px] h-10 flex-wrap text-xl font-thin tracking-wider hover:animate-scale-up-loop">
-            Book an appointment
+            <button className="uppercase bg-transparent text-gray-800 mt-10 rounded-xl w-[500px] h-10 flex-wrap text-xl font-thin tracking-wider hover:animate-scale-up-loop">
+            Booking now to discount 10%
             </button>  
           </a>
           
@@ -108,7 +81,7 @@ export default async function Home() {
 
         <div className="widget relative bottom-10 sm:px-5 md:inline-flex w-full items-center justify-between space-y-4 xsmall:space-y-0 z-30">
           <div className="left_widget w-full inline-flex items-center justify-center md:justify-start md:w-[50%] xsmall:space-x-6">
-            <div className="md:flex text-theme-3">
+            <div className="md:flex">
               <CurrentWeather data={hourly_data.list[0]} city={hourly_data.city} />
             </div>
           </div>
@@ -224,18 +197,17 @@ export default async function Home() {
           src="https://webnailsbucket.s3.amazonaws.com/beon/home-video.mp4">
         </video>
         */}
-        <div className="w-full h-screen absolute top-0 right-0 z-0">
+        <div className="w-full h-screen absolute top-0 z-10">
           <BgSlider/>
         </div>
         
-        <div className="w-full h-screen absolute top-10 z-10 scale-110">
-          <Image src="https://webnailsbucket.s3.amazonaws.com/beon/home+bg+A-01-01.png" 
+        <div className="w-full h-screen absolute top-0 z-0">
+          <Image src="https://webnailsbucket.s3.amazonaws.com/beon/home-bg/Beon+Web+redesign+2024+R2-09.png" 
             alt="bg"
             layout="fill"
             objectFit="cover"
             />
         </div>
-       
       </div>
         
     </>
