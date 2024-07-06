@@ -39,12 +39,8 @@ const BgSlider = () => {
             <Image 
             src={fadeImage.url}
             alt="slide"
-            style={{
-              width: '100%',
-              height: '100vh',
-            }}
-            width={1440}
-            height={850}
+            width={2880}
+            height={1650}
             />
             
           </div>
