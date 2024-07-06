@@ -10,10 +10,10 @@ const BgSlider = () => {
   const properties = {
     duration: 5000,
     autoplay: true,
-    transitionDuration: 1000,
+    transitionDuration: 5000,
     arrows: false,
     infinite: true,
-    easing: "ease",
+    easing: "linear",
   }
 
   const fadeImages = [
