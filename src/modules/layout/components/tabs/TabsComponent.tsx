@@ -17,7 +17,7 @@ const TabsComponent = ({ items } : any) => {
               ref={index === 0 ? firstBtnRef : null}
               key={index}
               onClick={() => setSelectedTab(index)}
-              className={`uppercase inline-block hover:underline hover:underline-offset-4 rounded-lg px-4 text-center ${
+              className={`uppercase inline-block hover:underline hover:underline-offset-4 rounded-lg outline-none px-4 text-center ${
                 selectedTab === index ? 'bg-primary text-primary-content' : ''
               } `}
             >

@@ -17,6 +17,7 @@ import BgSlider from '@modules/home/components/BgSlider'
 //</h1>
 
 import './path.css'
+import lineSvg from './lines.svg'
 
 //weather widget get data
 import { Location, HourlyForecastResponse } from "lib/weather-plugin/types"
@@ -85,7 +86,7 @@ export default async function Home() {
         </div>
 
         <div className="widget pb-20 h-1/3 md:inline-flex w-full items-end justify-center space-y-4 xlg:space-y-0 z-30">
-          <div className="social_widget hidden lg:inline-flex w-1/3 h-20 items-center justify-start space-x-4 z-20">
+          <div className="social_widget hidden lg:inline-flex w-1/3 h-20 items-center justify-start space-x-2 z-20">
             <SocialLink/>
           </div>
           <div className="left_widget w-full inline-flex items-center justify-center lg:w-1/3 h-20 lg:space-x-6">
@@ -137,20 +138,27 @@ export default async function Home() {
           src="https://webnailsbucket.s3.amazonaws.com/beon/home-video.mp4">
         </video>
         */}
-         <div className="svg-path hidden xl:block w-full h-screen absolute top-0 z-20">
-          <svg viewBox="0 0 1440 825">
-            <path className="path" fill="none" stroke="white" stroke-width="2" d="M433.66,824.04c0-.63-.01-250.7,0-432.3.01-164.53,134-297.9,299.27-297.9h0c112.06,0,209.54,62.18,259.52,153.77l449.06,1.27"/>
+         <div className="svg-path w-full h-screen absolute top-0 z-20">
+          <svg viewBox="0 0 1440 825" className="hidden xl:block">
+            <path className="path1" fill="none" stroke="white" stroke-width="2" d="M433.66,824.04c0-.63-.01-250.7,0-432.3.01-164.53,134-297.9,299.27-297.9h0c112.06,0,209.54,62.18,259.52,153.77l449.06,1.27"/>
             <path className="path" fill="none" stroke="white" stroke-width="2" d="M384.98,824.13V308.95h0c0-112.04-91.23-202.86-203.78-202.86H6.89"/>
             <path className="path" fill="none" stroke="white" stroke-width="2" d="M420.52,824.06v-432.56c0-171.68,139.8-310.85,312.25-310.85h8.78"/>
             <path className="path" fill="none" stroke="white" stroke-width="2" d="M2.51,751.21c2.09-1.68,88.06-79.49,140.92-127.35,26.12-23.65,60.15-36.75,95.45-36.75h146.1"/>
             <path className="path" fill="none" stroke="white" stroke-width="2" d="M372.08,473.71c23.66-.35,48.43,0,48.43,0"/>
-            <path className="path" fill="none" stroke="white" stroke-width="2" x1="394.93" y1="480.72" x2="394.93" y2="824.04"/>
+            <path className="path" fill="none" stroke="white" stroke-width="2" d="M394.93,480.72 L394.93,824.04"/>
 
           </svg>
           <Image 
-            className="animate-fade-in-top-slow"
+            className="xl:hidden animate-fade-in-top-slow"
+            src={lineSvg}
+            alt="lineSvg"
+            layout="fill"
+            objectFit="cover"
+            />
+          <Image 
+            className="flowerSvg animate-fade-in-top-slow"
             src="https://webnailsbucket.s3.amazonaws.com/beon/home-bg/path3.png" 
-            alt="bg"
+            alt="flowerSvg"
             layout="fill"
             objectFit="cover"
             />

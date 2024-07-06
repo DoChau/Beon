@@ -53,7 +53,7 @@ export default function CategoryTemplate({
 
 
         <div className="w-full flex flex-col md:flex-row md:space-x-4 md:text-base items-start justify-center" data-testid="category-container">
-          <div className="sideInfo w-full mx-auto p-4 md:w-[20%] items-start justify-center bg-accent text-accent-content md:rounded-xl order-2 md:order-1">
+          <div className="sideInfo w-full mx-auto p-4 md:w-[20%] items-start justify-center bg-accent text-base-content md:rounded-xl order-2 md:order-1">
             <div>
               <h3 className="text-center mb-4"><strong>Price regulation</strong></h3>
               <h4 className="text-justify text-xs">The Price on services are varies, depend on the length, shapes, thickness and the amount of time need to complete the work per your request.  The price here are just basic price.  When you come our Salon, our front desk staff and our technician will explain more detail. We appreciates your understand</h4>
@@ -77,7 +77,7 @@ export default function CategoryTemplate({
               <h1 className="text-center" data-testid="category-page-title">{category.name}</h1>
             </div>
             {category.description && (
-              <div className="p-2 text-center bg-accent text-accent-content text-xs">
+              <div className="p-2 text-center bg-accent text-base-content text-xs">
                 <p>{category.description}</p>
               </div>
             )}

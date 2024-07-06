@@ -170,7 +170,7 @@ export default function Nav() {
                       <input
                         type="text"
                         id="search-navbar"
-                        className="block w-full p-2 ps-2 text-sm bg-transparent border-b placeholder:text-gray-500 border-gray-500"
+                        className="block w-full p-2 ps-2 text-sm bg-transparent border-b outline-none placeholder:text-gray-500 border-gray-500"
                         placeholder="Search..."
                       />
                     </div>
@@ -205,7 +205,7 @@ export default function Nav() {
                     <input
                       type="text"
                       id="search-navbar"
-                      className="block w-full p-2 ps-2 text-sm rounded-lg bg-transparent border placeholder:text-base-content border-base-content"
+                      className="block w-full p-2 ps-2 text-sm rounded-lg bg-transparent border outline-none placeholder:text-base-content border-base-content"
                       placeholder="Search..."
                     />
                   </div>
@@ -382,7 +382,7 @@ export default function Nav() {
                       <input
                         type="text"
                         id="search-navbar"
-                        className="block w-full p-2 ps-2 text-sm bg-transparent border-0 border-b border-base-content placeholder:text-base-content"
+                        className="block w-full p-2 ps-2 text-sm bg-transparent border-0 border-b border-base-content outline-none placeholder:text-base-content"
                         placeholder="Search..."
                       />
                     </div>
