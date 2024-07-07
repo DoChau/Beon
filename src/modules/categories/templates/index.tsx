@@ -31,7 +31,7 @@ export default function CategoryTemplate({
 
   return (
     <>
-    <div className="w-full bg-gray-300 text-black grid gap-4 xsmall:gap-6 font-futura font-thin text-sm">
+    <div className="w-full bg-gray-300 text-black grid gap-4 xsmall:gap-6 font-futura text-sm">
       <div className="Banner w-full h-fit xl:h-[300px] object-bottom overflow-hidden mx-auto">
             <Image src="https://webnailsbucket.s3.amazonaws.com/beon/services-banner2.png" 
             alt="banner" 

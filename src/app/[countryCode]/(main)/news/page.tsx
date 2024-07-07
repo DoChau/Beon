@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default async function News() {
     return (
     <>
-      <div className="w-full bg-gray-300 text-black grid gap-4 xsmall:gap-6 font-futura">
+      <div className="w-full bg-gray-300 text-black grid gap-4 xsmall:gap-6 font-futura text-xs">
         <div className="Banner w-full h-fit xl:h-[300px] object-bottom overflow-hidden mx-auto">
           <Image src="https://webnailsbucket.s3.amazonaws.com/beon/news-banner2.png" 
           alt="banner" 

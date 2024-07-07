@@ -14,7 +14,7 @@ export default async function Hiring() {
     return (
     <>
 
-    <div className="w-full bg-gray-300 text-black grid gap-4 xsmall:gap-6 font-futura text-sm">
+    <div className="w-full bg-gray-300 text-black grid gap-4 xsmall:gap-6 font-futura text-xs">
       <div className="Banner w-full h-fit xl:h-[300px] object-bottom overflow-hidden mx-auto">
           <Image src="https://webnailsbucket.s3.amazonaws.com/beon/banner+(3).jpg" 
           alt="banner" 

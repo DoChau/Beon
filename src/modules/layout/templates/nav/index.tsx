@@ -36,7 +36,7 @@ export default function Nav() {
                       <SocialLink/>
                     </div>
 
-                    <ul className="flex flex-col p-4 sm:p-0 rounded-lg bg-transparent text-pink-600 font-futura font-normal uppercase text-base sm:space-x-6 rtl:space-x-reverse sm:flex-row">
+                    <ul className="flex flex-col p-4 sm:p-0 rounded-lg bg-transparent text-pink-600 font-futura font-thin uppercase text-base sm:space-x-6 rtl:space-x-reverse sm:flex-row">
                       <li>
                         <a
                           href="/"
@@ -215,7 +215,7 @@ export default function Nav() {
                     <SocialLink/>
                   </div>
 
-                  <ul className="flex flex-col p-4 sm:p-0 rounded-lg bg-transparent font-futura font-normal uppercase text-base sm:space-x-6 rtl:space-x-reverse sm:flex-row">
+                  <ul className="flex flex-col p-4 sm:p-0 rounded-lg bg-transparent font-futura font-thin uppercase text-base sm:space-x-6 rtl:space-x-reverse sm:flex-row">
                     <li>
                       <a
                         href="/"
