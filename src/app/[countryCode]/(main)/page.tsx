@@ -3,6 +3,7 @@ import { Metadata } from "next"
 import Image from "next/image"
 import Script from "next/script"
 import BgSlider from '@modules/home/components/BgSlider'
+import BgSliderMobile from "@modules/home/components/BgSlider mobile"
 //import { getCollectionsList, getProductsList, getRegion } from "@lib/data"
 //import FeaturedProducts from "@modules/home/components/featured-products"
 //import Hero from "@modules/home/components/hero"
@@ -89,6 +90,7 @@ export default async function Home() {
           <div className="social_widget hidden lg:inline-flex w-1/3 h-20 items-center justify-start space-x-2 z-20">
             <SocialLink/>
           </div>
+         
           <div className="left_widget w-full inline-flex items-center justify-center lg:w-1/3 h-20 lg:space-x-6">
             <div className="md:flex">
               <CurrentWeather data={hourly_data.list[0]} city={hourly_data.city} />
@@ -125,7 +127,7 @@ export default async function Home() {
         
       </div>
 
-      <div className="social_widget lg:hidden w-12 h-60 flex flex-col absolute top-[20vh] bg-theme-3 bg-opacity-25 left-0 rounded-xl items-center justify-around z-20">
+      <div className="social_widget lg:hidden w-12 h-60 flex flex-col absolute top-[25vh] bg-theme-3 bg-opacity-25 left-0 rounded-xl items-center justify-around z-20">
         <SocialLink/>
       </div>
 
@@ -138,8 +140,8 @@ export default async function Home() {
           src="https://webnailsbucket.s3.amazonaws.com/beon/home-video.mp4">
         </video>
         */}
-         <div className="svg-path w-full h-screen absolute top-0 z-20">
-          <svg viewBox="0 0 1440 825" className="hidden large:block">
+         <div className="svg-path w-full h-screen hidden large:block absolute top-0 z-20">
+          <svg viewBox="0 0 1440 825">
             <path className="path1" fill="none" stroke="white" stroke-width="2" d="M433.66,824.04c0-.63-.01-250.7,0-432.3.01-164.53,134-297.9,299.27-297.9h0c112.06,0,209.54,62.18,259.52,153.77l449.06,1.27"/>
             <path className="path" fill="none" stroke="white" stroke-width="2" d="M384.98,824.13V308.95h0c0-112.04-91.23-202.86-203.78-202.86H6.89"/>
             <path className="path" fill="none" stroke="white" stroke-width="2" d="M420.52,824.06v-432.56c0-171.68,139.8-310.85,312.25-310.85h8.78"/>
@@ -148,23 +150,9 @@ export default async function Home() {
             <path className="path" fill="none" stroke="white" stroke-width="2" d="M394.93,480.72 L394.93,824.04"/>
 
           </svg>
+                  
           <Image 
-            className="large:hidden absolute top-0 animate-fade-in-top-slow"
-            src={lineSvg}
-            alt="lineSvg"
-            layout="fill"
-            objectFit="cover"
-            />
-          <Image 
-            className="flowerSvg large:hidden absolute top-0 animate-fade-in-top-slow"
-            src="https://webnailsbucket.s3.amazonaws.com/beon/home-bg/path3.png" 
-            alt="flowerSvg"
-            layout="fill"
-            objectFit="cover"
-            />
-
-            <Image 
-            className="flowerSvg hidden large:block absolute top-0 animate-fade-in-top-slow"
+            className="flowerSvg absolute top-0 animate-fade-in-top-slow"
             src="https://webnailsbucket.s3.amazonaws.com/beon/home-bg/path3.png" 
             alt="flowerSvg"
             width={2880}
@@ -172,19 +160,15 @@ export default async function Home() {
             />
         </div>
 
-        <div className="w-full h-screen hidden large:block absolute top-0 z-10">
+        <div className="w-full h-screen hidden xl:block absolute top-0 z-10">
           <BgSlider/>
         </div>
 
-        <div className="w-full h-screen large:hidden absolute top-0 z-10">
-          <Image src="https://webnailsbucket.s3.amazonaws.com/beon/home-bg/frame1%401440x.png" 
-            alt="bg"
-            layout="fill"
-            objectFit="cover"
-            />
+        <div className="w-full h-screen xl:hidden absolute top-0 z-10">
+          <BgSliderMobile/>
         </div>
-        
-        <div className="w-full h-screen absolute top-0 z-0">
+               
+        <div className="w-full h-screen hidden xl:block absolute top-0 z-0">
           <Image src="https://webnailsbucket.s3.amazonaws.com/beon/home-bg/Beon+Web+redesign+2024+R2-09.png" 
             alt="bg"
             layout="fill"
