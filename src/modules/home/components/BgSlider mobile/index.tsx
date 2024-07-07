@@ -39,8 +39,8 @@ const BgSliderMobile = () => {
             <Image 
             src={fadeImage.url}
             alt="slide"
-            width={1024}
-            height={2059}
+            width={1280}
+            height={2574}
             />
             
           </div>

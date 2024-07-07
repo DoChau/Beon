@@ -140,8 +140,8 @@ export default async function Home() {
           src="https://webnailsbucket.s3.amazonaws.com/beon/home-video.mp4">
         </video>
         */}
-         <div className="svg-path w-full h-screen hidden large:block absolute top-0 z-20">
-          <svg viewBox="0 0 1440 825">
+         <div className="svg-path w-full h-screen hidden xl:block absolute top-0 z-20">
+          <svg viewBox="0 0 1442 825" className="-mt-[1px] pl-1">
             <path className="path1" fill="none" stroke="white" stroke-width="2" d="M433.66,824.04c0-.63-.01-250.7,0-432.3.01-164.53,134-297.9,299.27-297.9h0c112.06,0,209.54,62.18,259.52,153.77l449.06,1.27"/>
             <path className="path" fill="none" stroke="white" stroke-width="2" d="M384.98,824.13V308.95h0c0-112.04-91.23-202.86-203.78-202.86H6.89"/>
             <path className="path" fill="none" stroke="white" stroke-width="2" d="M420.52,824.06v-432.56c0-171.68,139.8-310.85,312.25-310.85h8.78"/>
