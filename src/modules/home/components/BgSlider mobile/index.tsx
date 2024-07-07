@@ -8,7 +8,7 @@ import { relative } from 'path';
 
 const BgSliderMobile = () => {
   const properties = {
-    duration: 5000,
+    duration: 3000,
     autoplay: true,
     transitionDuration: 5000,
     arrows: false,
