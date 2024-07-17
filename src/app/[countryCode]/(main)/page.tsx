@@ -140,7 +140,7 @@ export default async function Home() {
           src="https://webnailsbucket.s3.amazonaws.com/beon/home-video.mp4">
         </video>
         */}
-         <div className="svg-path w-full h-screen hidden xl:block absolute top-0 z-20">
+         <div className="svg-path-desktop w-full h-screen hidden xl:block absolute top-0 z-20">
           <svg viewBox="0 0 1442 825" className="-mt-[1px] pl-1">
             <path className="path1" fill="none" stroke="white" stroke-width="2" d="M433.66,824.04c0-.63-.01-250.7,0-432.3.01-164.53,134-297.9,299.27-297.9h0c112.06,0,209.54,62.18,259.52,153.77l449.06,1.27"/>
             <path className="path" fill="none" stroke="white" stroke-width="2" d="M384.98,824.13V308.95h0c0-112.04-91.23-202.86-203.78-202.86H6.89"/>
@@ -160,6 +160,18 @@ export default async function Home() {
             />
         </div>
 
+        <div className="svg-path-mobile w-full h-screen xl:hidden absolute top-0 z-20">
+          <svg viewBox="0 0 345 689" className="mt-[2px]">
+            <path className="path1" fill="#ffffff60" stroke="#ffffff80" stroke-width="1" d="M344.42,335.44s-65.59,14.62-141.92,97.44c-76.33,82.83-75.75,128.96-75.75,128.96l10.21,1.96s.13-42.68,64.37-116.49c50.91-58.48,87.7-87.52,143.1-111.88Z"/>
+            <path className="path1" fill="#ffffff60" stroke="#ffffff80" stroke-width="1" d="M150.74,335.44c25.41-164.03,8.69-264.48,8.69-264.48,0,0,2.67,167.03-7.04,217.92-9.71,50.89-16.2,141.29-13.5,185.14-.09-50.41,11.85-138.59,11.85-138.59Z"/>
+            <path className="path1" fill="#ffffff60" stroke="#ffffff80" stroke-width="1" d="M61.99,535.23s-13.52-21.68-19.47-61.2c-5.95-39.52-20.4-90.16,18.1-191.46s24.9-189.11,24.9-189.11c0,0,10.77,48.38,4.43,105.69-6.53,59-25.09,78.59-53.96,171.7-31.71,102.26,23.35,162.67,23.35,162.67"/>
+            <path className="path1" fill="#ffffff60" stroke="#ffffff80" stroke-width="1" d="M106.37,187.38c.18,13.49,1.61,26.93,4.62,40.09,5.92,25.95,12.19,72.48,3,134.77-14.62,99.07-18.59,159.28-14.62,191.54,0,0,.94-53.39,8.65-113.32,9.76-75.79,22.18-147.25,15.48-200.84-6.69-53.59-25.58-100.15-25.58-100.15,0,0,8.16,26.7,8.45,47.91Z"/>
+            <path className="path1" fill="#ffffff60" stroke="#ffffff80" stroke-width="1" d="M35.83,121.66s22.12,100.91,10.75,243.02-3.75,156.82-3.75,156.82c0,0-22.02-12.82-42.83-47.47,1.65-91.49,1.65-313.34,1.65-313.34,0,0,5.71-8.49,16.39-21.21,10.68-12.72,17.79-17.82,17.79-17.82Z"/>
+
+          </svg>
+          
+        </div>
+
         <div className="w-full h-screen hidden xl:block absolute top-0 z-10">
           <BgSlider/>
         </div>
@@ -171,9 +183,8 @@ export default async function Home() {
         <div className="w-full h-screen hidden xl:block absolute top-0 z-0">
           <Image src="https://webnailsbucket.s3.amazonaws.com/beon/home-bg/Beon+Web+redesign+2024+R2-09.png" 
             alt="bg"
-            layout="fill"
-            objectFit="cover"
-            objectPosition="right bottom"
+            width={2880}
+            height={1650}
             />
         </div>
       </div>

@@ -10,7 +10,7 @@ const BgSliderMobile = () => {
   const properties = {
     duration: 3000,
     autoplay: true,
-    transitionDuration: 5000,
+    transitionDuration: 3000,
     arrows: false,
     infinite: true,
     easing: "linear",
