@@ -16,7 +16,7 @@
   .path1 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: dash 15s linear alternate infinite;
+    animation: dash 8s linear alternate infinite;
   }
   
   @keyframes dash {
