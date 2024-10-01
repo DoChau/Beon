@@ -8,7 +8,7 @@ module.exports = {
         cupcake: {
             ...require("daisyui/src/theming/themes")["cupcake"],
             'primary' : 'rgb(159, 123, 80)',
-            'primary-content' : 'white',
+            'primary-content' : 'black',
             'secondary' : 'white',
             'accent'  : 'rgb(242,196,148)',
             'accent-content'  : '#fff',
@@ -213,6 +213,35 @@ module.exports = {
           "0%": { transform: "scale(0.9)", opacity: 0 },
           "100%": { transform: "scale(1)", opacity: 1 },
         },
+        appeared: {
+          "0%": { opacity: 0 },
+          "95%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
+        
+        spinx: {
+          "0%": { transform: "rotate(-120deg)" },
+          "100%": { transform: "rotate(90deg)" },
+        },
+        ispin: {
+          "0%": { transform: "rotate(450deg)" },
+          "100%": { transform: "rotate(270deg)" },
+        },
+        flowdown: {
+          "0%": { transform:  "translateY(-750px)" },
+          "50%": { transform:  "translateY(-750px)" },
+          "100%": { transform:  "translateY(0px)"},
+        },
+        flowup: {
+          "0%": { opacity: 0, transform:  "translateY(300px)" },
+          "50%": { opacity: 0, transform:  "translateY(300px)" },
+          "100%": { opacity: 0.5, transform:  "translateY(0px)"},
+        },
+        falldown: {
+          "0%": { opacity: 1, transform:  "translateY(0px)" },
+          "50%": { opacity: 1, transform:  "translateY(0px)" },
+          "100%": { opacity: 0.5, transform:  "translateY(250px)"},
+        },
         leave: {
           "0%": { transform: "scale(1)", opacity: 1 },
           "100%": { transform: "scale(0.9)", opacity: 0 },
@@ -244,7 +273,29 @@ module.exports = {
         'pulse-slow': 'pulse 10s linear infinite',
         'scale-up': 'scaleUp 0.5s ease forwards',
         'scale-up-loop': 'scaleUp 1s infinite',
+
+        'flowup16': 'flowup 16s ease-in forwards',
+        'appeared-fade-1': 'appeared 1s ease forwards',
+        'appeared-fade-1.5': 'appeared 1.5s ease forwards',
+        'fade-in-top-4': 'fade-in-top 4s ease forwards',
+        'appeared-fade-3': 'appeared 3s ease forwards',
+        'appeared-fade-4': 'appeared 4s ease forwards',
+        'appeared-fade-5': 'appeared 5s linear forwards',
+        'appeared-fade-8': 'appeared 8s linear forwards',
+        'appeared-fade-9': 'appeared 9s linear forwards',
+        'appeared-fade-10': 'appeared 10s linear forwards',
+        "slide-in": "slide-in 1.2s cubic-bezier(.41,.73,.51,1.02)",
+        'spin-slow': 'spin 10s linear infinite',
+        'spin-slow40': 'spinx 30s linear infinite',
+        'ispin-slow': 'ispin 30s linear infinite',
+
         leave: "leave 150ms ease-in forwards",
+        'dropdown3': 'falldown 3s ease infinite',
+        'flowdown16': 'flowdown 16s ease forwards',
+        'flowup16': 'flowup 16s ease forwards',
+        'flowup18': 'flowup 18s ease forwards',
+        'flowup19': 'flowup 19s ease forwards',
+
       },
     },
   },

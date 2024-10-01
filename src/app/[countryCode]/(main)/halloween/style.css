@@ -1,0 +1,31 @@
+
+  
+  
+  .waveypromotion{
+    animation: Xmove 20s linear infinite;
+    opacity: 0.3;
+  }
+  @keyframes Xmove {
+    0% {
+      transform: translateX(-54.75%);
+    }
+   
+    100% {
+      transform: translateX(50%);
+    }
+  }
+  
+  .wavey{
+    animation: XYmove 10s ease infinite;
+  }
+  @keyframes XYmove {
+    0% {
+      transform: translateX(-10%);
+    }
+    50% {
+      transform: translateX(-5%);
+    }
+    100% {
+      transform: translateX(-10%);
+    }
+  }

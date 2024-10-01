@@ -134,12 +134,7 @@ export default async function Home() {
       {/*<Script src="https://cdn.tailwindcss.com"></Script>*/}
 
       <div className="background w-full h-screen absolute top-0 m-0 overflow-hidden -z-50">
-        {/*
-        <video className="wmp4-bg w-full h-screen object-cover absolute top-0 z-0"
-          loop muted autoPlay
-          src="https://webnailsbucket.s3.amazonaws.com/beon/home-video.mp4">
-        </video>
-        */}
+  
          <div className="svg-path-desktop w-full h-screen hidden xl:block absolute top-0 z-20">
           <svg viewBox="0 0 1442 825" className="-mt-[1px] pl-1">
             <path className="path1" fill="none" stroke="white" stroke-width="2" d="M433.66,824.04c0-.63-.01-250.7,0-432.3.01-164.53,134-297.9,299.27-297.9h0c112.06,0,209.54,62.18,259.52,153.77l449.06,1.27"/>

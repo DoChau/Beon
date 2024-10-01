@@ -118,7 +118,7 @@ export async function middleware(request: NextRequest) {
 
   // If no country code is set, we redirect to the relevant region.
   if (!urlHasCountryCode && countryCode) {
-    redirectUrl = `${request.nextUrl.origin}/${countryCode}${redirectPath}${queryString}`
+    redirectUrl = `${request.nextUrl.origin}/${countryCode}${redirectPath}${queryString}/halloween`
     response = NextResponse.redirect(`${redirectUrl}`, 307)
   }
 
