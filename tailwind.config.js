@@ -292,9 +292,9 @@ module.exports = {
         leave: "leave 150ms ease-in forwards",
         'dropdown3': 'falldown 3s ease infinite',
         'flowdown16': 'flowdown 16s ease forwards',
-        'flowup16': 'flowup 16s ease forwards',
-        'flowup18': 'flowup 18s ease forwards',
-        'flowup19': 'flowup 19s ease forwards',
+        'flowup1': 'flowup 16s ease forwards',
+        'flowup3': 'flowup 22s ease forwards',
+        'flowup2': 'flowup 19s ease forwards',
 
       },
     },

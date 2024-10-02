@@ -58,6 +58,7 @@ export default async function Home() {
             className={`Logo scale-75 md:scale-100 animate-appeared-fade-3 z-40`}
             key={"/booking"}
             href={"/booking"}
+            target="_blank"
             >
             <img
               className="mt-10 hover:animate-scale-up-loop"
@@ -73,7 +74,7 @@ export default async function Home() {
             <img
                 src="https://webnailsbucket.s3.amazonaws.com/beon/halloween2024/Asset+3.png"
                 alt="ghost"
-                className="animate-flowup18 mt-40"
+                className="animate-flowup2 mt-40"
                 width={198}
                 height={280}
               />
@@ -81,7 +82,7 @@ export default async function Home() {
             <img
                 src="https://webnailsbucket.s3.amazonaws.com/beon/halloween2024/Asset+4.png"
                 alt="ghost"
-                className="animate-flowup16"
+                className="animate-flowup1"
                 width={305}
                 height={492}
               />
@@ -89,7 +90,7 @@ export default async function Home() {
             <img
                 src="https://webnailsbucket.s3.amazonaws.com/beon/halloween2024/Asset+6.png"
                 alt="ghost"
-                className="animate-flowup19 mt-40"
+                className="animate-flowup3 mt-40"
                 width={182}
                 height={282}
               />

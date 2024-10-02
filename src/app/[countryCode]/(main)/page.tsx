@@ -27,6 +27,7 @@ import CurrentWeather from "lib/weather-plugin/CurrentWeather"
 import HourlyForecast from "lib/weather-plugin/HourlyForecast"
 import { notFound } from "next/navigation"
 import SocialLink from "@modules/layout/components/socialLink"
+import LocalizedClientLink from "@modules/common/components/localized-client-link"
 const DEFAULT_LOCATION: Location = {
   city: "Wall Township, NJ, US",
   coord: {
@@ -68,21 +69,23 @@ export default async function Home() {
           <div className="logo">
             <Image src="https://webnailsbucket.s3.amazonaws.com/beon/logo+beon-01.svg" alt="logo" width={152} height={209}/>
           </div>
-          <a 
+
+          
+          <LocalizedClientLink 
+            className="mt-10 hover:animate-scale-up-loop"
             title="booking-link"
             href="/booking" 
             target="_blank"
             rel="noopener noreferrer"
             >
-            <Image 
-              className="mt-10 hover:animate-scale-up-loop"
+            <Image               
               src="https://webnailsbucket.s3.amazonaws.com/beon/bookbutton.png" 
               alt="bookbutton" 
               width={300} 
               height={70}
             />
             
-          </a>
+          </LocalizedClientLink>
           
         </div>
 
