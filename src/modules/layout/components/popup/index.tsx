@@ -57,4 +57,12 @@ export default function PopupLoader({
       </div>
       
       );
+    case 3:
+      return (
+      <audio src={'https://webnailsbucket.s3.amazonaws.com/holmdel/halloween2024/halloween+sound.mp3'} autoPlay></audio>
+      );
+    case 4:
+      return (
+        <audio src={'https://webnailsbucket.s3.amazonaws.com/beon/halloween2024/Beon+-+ghost-voice-halloween-moany-ghost-168411.mp3'} autoPlay></audio>
+      );
 }}
