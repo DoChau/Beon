@@ -50,7 +50,6 @@ export default async function Home() {
       ></audio>
       <PopupLoader timeIn={1600} timeOut={1700} style={1} />
       <PopupLoader timeIn={1800} timeOut={1900} style={1} />
-      <PopupLoader timeIn={7900} timeOut={10800} style={2} />
 
       <div className="max-w-6xl w-full h-screen -mb-12 sm:-mb-16 p-5 mx-auto items-center overflow-hidden font-futura text-white z-0">
         <div className="logocontent h-2/3 flex flex-col items-center mx-auto place-content-center z-30">
