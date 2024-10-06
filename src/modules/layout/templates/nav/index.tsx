@@ -66,31 +66,7 @@ export default function Nav() {
                   </div>
 
                   <div className="flex-row inline-flex w-screen sm:w-60 sm:order-2 order-1 place-items-center justify-around items-end text-gray-500">
-                    <button
-                      type="button"
-                      className="sm:hidden rounded-lg text-sm p-2.5 me-1"
-                      data-collapse-toggle="search-navbar"
-                      aria-controls="search-navbar"
-                      aria-expanded="false"
-                    >
-                      <svg
-                        className="w-5 h-5"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 20 20"
-                      >
-                        <path
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
-                        />
-                      </svg>
-                      <span className="sr-only">Search</span>
-                    </button>
-
+                    
                     <button
                       className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg sm:hidden"
                       data-collapse-toggle="search-navbar"
@@ -114,6 +90,31 @@ export default function Nav() {
                           d="M1 1h15M1 7h15M1 13h15"
                         />
                       </svg>
+                    </button>
+
+                    <button
+                      type="button"
+                      className="sm:hidden rounded-lg text-sm p-2.5 me-1"
+                      data-collapse-toggle="search-navbar"
+                      aria-controls="search-navbar"
+                      aria-expanded="false"
+                    >
+                      <svg
+                        className="w-5 h-5"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                        />
+                      </svg>
+                      <span className="sr-only">Search</span>
                     </button>
 
                     <div className="relative hidden sm:block w-40 mr-4">
@@ -194,31 +195,7 @@ export default function Nav() {
                   </div>
 
                   <div className="flex-row inline-flex w-screen sm:w-60 sm:order-2 order-1 place-items-center justify-around items-end text-gray-500">
-                    <button
-                      type="button"
-                      className="sm:hidden rounded-lg text-sm p-2.5 me-1"
-                      data-collapse-toggle="search-navbar"
-                      aria-controls="search-navbar"
-                      aria-expanded="false"
-                    >
-                      <svg
-                        className="w-5 h-5"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 20 20"
-                      >
-                        <path
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
-                        />
-                      </svg>
-                      <span className="sr-only">Search</span>
-                    </button>
-
+                    
                     <button
                       className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg sm:hidden"
                       data-collapse-toggle="search-navbar"
@@ -242,6 +219,31 @@ export default function Nav() {
                           d="M1 1h15M1 7h15M1 13h15"
                         />
                       </svg>
+                    </button>
+
+                    <button
+                      type="button"
+                      className="sm:hidden rounded-lg text-sm p-2.5 me-1"
+                      data-collapse-toggle="search-navbar"
+                      aria-controls="search-navbar"
+                      aria-expanded="false"
+                    >
+                      <svg
+                        className="w-5 h-5"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                        />
+                      </svg>
+                      <span className="sr-only">Search</span>
                     </button>
 
                     <div className="relative hidden sm:block w-40 mr-4">
@@ -352,31 +354,7 @@ export default function Nav() {
                   </div>
 
                   <div className="Search-bar w-full sm:w-60 inline-flex justify-around sm:justify-end order-1 sm:order-3">
-                    <button
-                      type="button"
-                      className="sm:hidden text-base-content rounded-lg text-sm p-2.5 me-1"
-                      data-collapse-toggle="search-navbar"
-                      aria-controls="search-navbar"
-                      aria-expanded="false"
-                    >
-                      <svg
-                        className="w-5 h-5"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 20 20"
-                      >
-                        <path
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
-                        />
-                      </svg>
-                      <span className="sr-only">Search</span>
-                    </button>
-
+                    
                     <button
                       className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-base-content rounded-lg sm:hidden"
                       data-collapse-toggle="search-navbar"
@@ -400,6 +378,31 @@ export default function Nav() {
                           d="M1 1h15M1 7h15M1 13h15"
                         />
                       </svg>
+                    </button>
+
+                    <button
+                      type="button"
+                      className="sm:hidden text-base-content rounded-lg text-sm p-2.5 me-1"
+                      data-collapse-toggle="search-navbar"
+                      aria-controls="search-navbar"
+                      aria-expanded="false"
+                    >
+                      <svg
+                        className="w-5 h-5"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                        />
+                      </svg>
+                      <span className="sr-only">Search</span>
                     </button>
 
                     <div className="relative hidden sm:block w-40 mr-4">

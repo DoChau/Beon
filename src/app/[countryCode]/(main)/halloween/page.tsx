@@ -64,7 +64,7 @@ export default async function Home() {
             />
           </LocalizedClientLink>
 
-          <div className="Ghosts inline-flex -space-x-20 absolute top-[15%] animate-pulse">
+          <div className="Ghosts w-full overflow-hidden inline-flex place-content-center -space-x-40 md:-space-x-20 absolute top-[15%] animate-pulse">
             
             <img
                 src="https://webnailsbucket.s3.amazonaws.com/beon/halloween2024/Asset+3.png"
@@ -214,7 +214,7 @@ export default async function Home() {
             height={1480}
           />
           
-          <div className="Bats w-full h-screen absolute top-0 brightness-150 flex animate-ispin-slow -z-40">
+          <div className="leftBats w-full h-screen absolute top-0 brightness-150 hidden md:flex animate-ispin-slow -z-40">
             <img
               src="https://webnailsbucket.s3.amazonaws.com/pasch/halloween2024/bats-00001.png"
               className="absolute top-1/2 right-[150px]"
@@ -239,7 +239,7 @@ export default async function Home() {
               height={23}
             />
           </div>
-          <div className="Bats w-full h-screen absolute top-0 flex animate-spin-slow40 -z-10">
+          <div className="rightBats w-full h-screen absolute top-0 hidden md:flex animate-spin-slow40 -z-10">
             <img
               src="https://webnailsbucket.s3.amazonaws.com/pasch/halloween2024/bats-00002.png"
               className="absolute bottom-1/3 left-[250px]"
